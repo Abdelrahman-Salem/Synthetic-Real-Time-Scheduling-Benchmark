@@ -1,5 +1,7 @@
 # Synthetic Real Time Scheduling Benchmark
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22871510.svg)](https://doi.org/10.5281/zenodo.22871510)
+
 Version 1.0.0
 
 This repository contains a deterministic synthetic benchmark for evaluating
@@ -85,6 +87,7 @@ file are stored in `SHA256SUMS`.
 
 ## Citation and licenses
 
-Use `CITATION.cff` for citation metadata. The DOI field will be added after the
-first Zenodo deposit. Code is licensed under MIT. Data and documentation are
-licensed under CC BY 4.0. See `LICENSE-CODE` and `LICENSE-DATA`.
+Use `CITATION.cff` for citation metadata. The archived version 1.0.0 dataset is
+available at https://doi.org/10.5281/zenodo.22871510. Code is licensed under
+MIT. Data and documentation are licensed under CC BY 4.0. See `LICENSE-CODE`
+and `LICENSE-DATA`.

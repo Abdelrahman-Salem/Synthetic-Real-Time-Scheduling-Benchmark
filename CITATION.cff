@@ -3,7 +3,10 @@ message: If you use this benchmark, please cite the archived dataset release.
 type: dataset
 title: Synthetic Real Time Scheduling Benchmark for Adaptive RMS EDF and Priority Boost Evaluation
 version: 1.0.0
+doi: 10.5281/zenodo.22871510
 date-released: 2026-09-21
+url: https://doi.org/10.5281/zenodo.22871510
+repository-code: https://github.com/Abdelrahman-Salem/Synthetic-Real-Time-Scheduling-Benchmark
 authors:
   - family-names: Salem
     given-names: Abdelrahman Mohamed Mohamed
@@ -23,4 +26,3 @@ keywords:
   - adaptive scheduling
   - synthetic benchmark
 license: CC-BY-4.0
-
