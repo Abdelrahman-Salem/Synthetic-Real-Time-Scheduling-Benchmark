@@ -1,0 +1,7 @@
+|--- nominal_utilization_pct <= 79.79
+|   |--- class: BASE
+|--- nominal_utilization_pct >  79.79
+|   |--- completed_execution_range_pct <= 26.29
+|   |   |--- class: BOOST
+|   |--- completed_execution_range_pct >  26.29
+|   |   |--- class: BASE

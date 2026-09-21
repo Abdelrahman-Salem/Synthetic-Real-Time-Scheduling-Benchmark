@@ -1,0 +1,3855 @@
+{
+  "schema_version": 1,
+  "generator_version": "pilot-v3",
+  "master_seed": 20260920,
+  "horizon_ms": 3000,
+  "counts": {
+    "train": 320,
+    "validation": 160,
+    "test": 160
+  },
+  "suite_sha256": "52351243eb401a11de776b713da6e12509920619a7b356de93cff5d5e3ccb47a",
+  "cases": [
+    {
+      "task_set_id": "train_n3_u40_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n3_u40_implicit_synchronous_r0.json",
+      "workload_sha256": "414fff415a9308e423c35e6f2a5eabc9b438011ee1d97fd9feb743f88a235520"
+    },
+    {
+      "task_set_id": "train_n3_u40_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n3_u40_implicit_synchronous_r1.json",
+      "workload_sha256": "5d12c297e0d6d7f0535f4fe9dae71754811d3ccb95fc9b5506e47300353d95d5"
+    },
+    {
+      "task_set_id": "train_n3_u40_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n3_u40_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "25009099fe0a06273e1de12d15d41f6112208e80081ad293a2128dc72abd011f"
+    },
+    {
+      "task_set_id": "train_n3_u40_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n3_u40_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "8ac6b1fe3e7837347d8391b7225f7770476b2055c2d54c8520cac2823f8f96c6"
+    },
+    {
+      "task_set_id": "train_n3_u40_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n3_u40_implicit_jitter_r0.json",
+      "workload_sha256": "39a4a66071915b0844893255d1df933ec00752fe5f5c7b57f75fd30dc33853a1"
+    },
+    {
+      "task_set_id": "train_n3_u40_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n3_u40_implicit_jitter_r1.json",
+      "workload_sha256": "96b101f7883c59066994ad9bc57327e508d2f361e8d94d14715940bce9a48e0e"
+    },
+    {
+      "task_set_id": "train_n3_u40_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n3_u40_implicit_bursts_r0.json",
+      "workload_sha256": "a2553b4b66fb01696648d73d063d4edbf15bd90f92757f083736ef171258d4ca"
+    },
+    {
+      "task_set_id": "train_n3_u40_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n3_u40_implicit_bursts_r1.json",
+      "workload_sha256": "f1bd17461e1c07b9fb63f196e5eb0dd66b7e64eb1d7bd8a93e301c15cfb146fd"
+    },
+    {
+      "task_set_id": "train_n3_u40_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n3_u40_constrained_synchronous_r0.json",
+      "workload_sha256": "814d7cc57772048b06e5eb928b69bf148b31bab8c1ead4f9182c5587dcd3997a"
+    },
+    {
+      "task_set_id": "train_n3_u40_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n3_u40_constrained_synchronous_r1.json",
+      "workload_sha256": "94b03f0f832a494ef4c9b14661c35fd1e59a42498dd7a0532b002e1b7e6d43ea"
+    },
+    {
+      "task_set_id": "train_n3_u40_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n3_u40_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "835adae2db7a029127bef1f50ed4ef42b773120bdb101a62372a2be1ca8dad74"
+    },
+    {
+      "task_set_id": "train_n3_u40_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n3_u40_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "9fe515fafaf4eeedd12cc0f656df4d7812577009a4f5831bc9cb13a4a9662244"
+    },
+    {
+      "task_set_id": "train_n3_u40_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n3_u40_constrained_jitter_r0.json",
+      "workload_sha256": "931129bdd5c86a474aed878bf3095a4b5cb09dd3bb9b9fcd47d86326c939e74e"
+    },
+    {
+      "task_set_id": "train_n3_u40_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n3_u40_constrained_jitter_r1.json",
+      "workload_sha256": "3ae264aef661256e2a3bfb3c46352172bd03fb9fe45c69bea4aa876b2ea49d57"
+    },
+    {
+      "task_set_id": "train_n3_u40_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n3_u40_constrained_bursts_r0.json",
+      "workload_sha256": "ff53806ecf1ad4f4ab80ce9e1f9adc47e3451190c507b8ddbf6e3f8e1faf9dcd"
+    },
+    {
+      "task_set_id": "train_n3_u40_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n3_u40_constrained_bursts_r1.json",
+      "workload_sha256": "e6b38a2868f133987554c18f5cd7e91a797fc9bcd9c65279324ff5f1bf954895"
+    },
+    {
+      "task_set_id": "train_n3_u60_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n3_u60_implicit_synchronous_r0.json",
+      "workload_sha256": "f7796a3faf36ebc51a8f5aa321135f00c90dacd40a37d2a105aa1bd456e91b6c"
+    },
+    {
+      "task_set_id": "train_n3_u60_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n3_u60_implicit_synchronous_r1.json",
+      "workload_sha256": "9048e207a98d9dbf831068370e41da06f2ee1e3e6538365b22f03fba0d44b088"
+    },
+    {
+      "task_set_id": "train_n3_u60_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n3_u60_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "c7cf21f3b18462f58e3cf62eeb8133a4a88395f59bbb203deda041063f91c315"
+    },
+    {
+      "task_set_id": "train_n3_u60_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n3_u60_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "349c78ba00e6b7f57d9b3feada3cf6744744e7f15448a2c3751796cd036ed75c"
+    },
+    {
+      "task_set_id": "train_n3_u60_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n3_u60_implicit_jitter_r0.json",
+      "workload_sha256": "c8c65c8c0d49b06c69bd20053ab476a429670bc3085ae2b8b1248ed686c7940a"
+    },
+    {
+      "task_set_id": "train_n3_u60_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n3_u60_implicit_jitter_r1.json",
+      "workload_sha256": "dc4f99d8020998da85453861837ad4c6b6a2dc11d9174b5b0019d6521ec68285"
+    },
+    {
+      "task_set_id": "train_n3_u60_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n3_u60_implicit_bursts_r0.json",
+      "workload_sha256": "585fccc0554335bbeb9a86422f43b6bb31a08d873a38f3ae3e09dbf235c91d4b"
+    },
+    {
+      "task_set_id": "train_n3_u60_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n3_u60_implicit_bursts_r1.json",
+      "workload_sha256": "725599c21a4c9621c964d01ad5936cf31f5f0ea9baf97f03910351021af2dd53"
+    },
+    {
+      "task_set_id": "train_n3_u60_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n3_u60_constrained_synchronous_r0.json",
+      "workload_sha256": "d7460c6e96be50b9a2fde3ea080a486e2675de019bdcf02eaeed70a16141d25d"
+    },
+    {
+      "task_set_id": "train_n3_u60_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n3_u60_constrained_synchronous_r1.json",
+      "workload_sha256": "c873472f3c5e682abe2005704c419194f14d4682062aa294424663cccbdb86b7"
+    },
+    {
+      "task_set_id": "train_n3_u60_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n3_u60_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "347dd3e7844e68e5e139bb90322f173f261035acf422d877f7a5f4d7fcf428de"
+    },
+    {
+      "task_set_id": "train_n3_u60_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n3_u60_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "c88889218ce8507dd920ffe526114a6453bd0da8da4e96c8f53394fae1027e10"
+    },
+    {
+      "task_set_id": "train_n3_u60_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n3_u60_constrained_jitter_r0.json",
+      "workload_sha256": "f1bf5b5898d3e3152733fd0580b1a2b3728e766c2ff0462944cab0b9d8d40448"
+    },
+    {
+      "task_set_id": "train_n3_u60_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n3_u60_constrained_jitter_r1.json",
+      "workload_sha256": "a5883aad936983fe94acc5198959717ab21cd81a9ad98af0bbf63726b38a684b"
+    },
+    {
+      "task_set_id": "train_n3_u60_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n3_u60_constrained_bursts_r0.json",
+      "workload_sha256": "8364bdb532c23ce4bf9dc883eb41eab3c49b9eb4fc6d5f8a6a6f085b3f13743c"
+    },
+    {
+      "task_set_id": "train_n3_u60_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n3_u60_constrained_bursts_r1.json",
+      "workload_sha256": "05c3fc1498968dbf6add5f2bc82b802ccc3f6c43dd9fbde790ef8c3f35ba9720"
+    },
+    {
+      "task_set_id": "train_n3_u80_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n3_u80_implicit_synchronous_r0.json",
+      "workload_sha256": "56e44615545bca7c4348d002c264cc3915baa5988174ff6057244c9fe12b7bce"
+    },
+    {
+      "task_set_id": "train_n3_u80_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n3_u80_implicit_synchronous_r1.json",
+      "workload_sha256": "9742423f1c32fbc8920ab636cea6ce844c764c7170aa88bd80202a243df753e2"
+    },
+    {
+      "task_set_id": "train_n3_u80_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n3_u80_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "31e3eed400821e50d25dca796b89ff3374e736926da1566acc33ecb2189e4535"
+    },
+    {
+      "task_set_id": "train_n3_u80_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n3_u80_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "78da9b3adb4eb3edf79fff433991a28c39f6771b6b70f1ca12793c5a2e06a9c8"
+    },
+    {
+      "task_set_id": "train_n3_u80_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n3_u80_implicit_jitter_r0.json",
+      "workload_sha256": "684b1301cf790fc4ef97ae2e9021a6dc6830f2f6d3f79ad38bd3fb2bcd887ec2"
+    },
+    {
+      "task_set_id": "train_n3_u80_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n3_u80_implicit_jitter_r1.json",
+      "workload_sha256": "228a155269fdc0f362a0e011800efdcb3bd9c80da023e9b9464e6cd16317b9ff"
+    },
+    {
+      "task_set_id": "train_n3_u80_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n3_u80_implicit_bursts_r0.json",
+      "workload_sha256": "791cfd22221cd43bb211b83d822acb73c267586c27733b365b6f4f96d49eeb86"
+    },
+    {
+      "task_set_id": "train_n3_u80_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n3_u80_implicit_bursts_r1.json",
+      "workload_sha256": "1b6f55646083f1bebff992717dd2806d89beffcf3229a34bb980e6ef6c61c2a8"
+    },
+    {
+      "task_set_id": "train_n3_u80_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n3_u80_constrained_synchronous_r0.json",
+      "workload_sha256": "3d030cfbc69974a354d6d031218378f643e6c4514014068a84789cf4bb876acf"
+    },
+    {
+      "task_set_id": "train_n3_u80_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n3_u80_constrained_synchronous_r1.json",
+      "workload_sha256": "ed1dfab11f92aac6174e62330f7e5c58d6a663660662f5853fec189e508eb51e"
+    },
+    {
+      "task_set_id": "train_n3_u80_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n3_u80_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "6dbfc880a0715fe7a3bd44b9894d7843fa68a0334dc82218fcb3c375573bcdff"
+    },
+    {
+      "task_set_id": "train_n3_u80_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n3_u80_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "693e2fff901967e319a74c401c39d9f5025310c1aee537e48a5c9b6bbc35f8ff"
+    },
+    {
+      "task_set_id": "train_n3_u80_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n3_u80_constrained_jitter_r0.json",
+      "workload_sha256": "6fb75da29d944eb2deafa684c0b7ef62ef64df45f609c77cd6ff3df0b86c9a0c"
+    },
+    {
+      "task_set_id": "train_n3_u80_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n3_u80_constrained_jitter_r1.json",
+      "workload_sha256": "cce8537105b421c83d9e3e9d06a34666ee6e180c1df24f332d3b47cf1c65d980"
+    },
+    {
+      "task_set_id": "train_n3_u80_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n3_u80_constrained_bursts_r0.json",
+      "workload_sha256": "e29c7de15ba491798e9ee725bc3471926498d108f288c2085f955c8994fabdfa"
+    },
+    {
+      "task_set_id": "train_n3_u80_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n3_u80_constrained_bursts_r1.json",
+      "workload_sha256": "99fb8641e7e2198b2e0f52b239f261009de7c09e34e3e21814a60cdb904c47dd"
+    },
+    {
+      "task_set_id": "train_n3_u95_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n3_u95_implicit_synchronous_r0.json",
+      "workload_sha256": "85c0671bedfd22728cb77e9bff392dcfcd16f237f6128a620c9c104f9f61d4e7"
+    },
+    {
+      "task_set_id": "train_n3_u95_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n3_u95_implicit_synchronous_r1.json",
+      "workload_sha256": "2890366a2063469da19ecad650b6ce5cbd880ba9699b3c85fdaed90710986114"
+    },
+    {
+      "task_set_id": "train_n3_u95_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n3_u95_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "36773062ef908ce886adaf532a35349f2e25df508b80ea3a8146867389739c3b"
+    },
+    {
+      "task_set_id": "train_n3_u95_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n3_u95_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "bb9787bf4a2c7d3ab8365476b7941d7d61c0afb724d6807669bf2e4568949269"
+    },
+    {
+      "task_set_id": "train_n3_u95_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n3_u95_implicit_jitter_r0.json",
+      "workload_sha256": "489f0ebdfbeaf5d2a8ee179cd08e5989de0a5f17648243a874cf60524f96d5ab"
+    },
+    {
+      "task_set_id": "train_n3_u95_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n3_u95_implicit_jitter_r1.json",
+      "workload_sha256": "fe008c74c4013b7c137052a32d7368e41ce0306decf36a5f967c006d16ecf6ab"
+    },
+    {
+      "task_set_id": "train_n3_u95_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n3_u95_implicit_bursts_r0.json",
+      "workload_sha256": "93ea24742892a09d887a918212747a6d4f09120e62ea1b475ab6ccd799f4d0ac"
+    },
+    {
+      "task_set_id": "train_n3_u95_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n3_u95_implicit_bursts_r1.json",
+      "workload_sha256": "786b574223de04abfaa4a9aa1afaa1acc524476f74ef6b39809f97ba9ef7f3f1"
+    },
+    {
+      "task_set_id": "train_n3_u95_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n3_u95_constrained_synchronous_r0.json",
+      "workload_sha256": "0a03771f20c2954d393dd9fd237528bd791ecdcaa455681b89ee3a5749bfc86b"
+    },
+    {
+      "task_set_id": "train_n3_u95_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n3_u95_constrained_synchronous_r1.json",
+      "workload_sha256": "db69100b948a17ddd56375e63520156e6d0bbe1e6441548a0f5be32c29ec8d0c"
+    },
+    {
+      "task_set_id": "train_n3_u95_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n3_u95_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "9b18807fac8559d4613a9fa1300305a3522593c811f53bec1c33648964b7a6d7"
+    },
+    {
+      "task_set_id": "train_n3_u95_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n3_u95_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "09ecd67a12fc9a67839543a2f0ad1e37d293996e4651d2902f43aea9f110194f"
+    },
+    {
+      "task_set_id": "train_n3_u95_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n3_u95_constrained_jitter_r0.json",
+      "workload_sha256": "47023204d6f62bc09c4cfb023cb4f85966830fa601ae263596dd44da3db04b1a"
+    },
+    {
+      "task_set_id": "train_n3_u95_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n3_u95_constrained_jitter_r1.json",
+      "workload_sha256": "3bee25d9c4cd2a6f33296d9c4a2f692043ec6050650d412c3c9cb95c984d5857"
+    },
+    {
+      "task_set_id": "train_n3_u95_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n3_u95_constrained_bursts_r0.json",
+      "workload_sha256": "ff5de915758ca267728d5d024808fbadd0df1e00be60aa302f4be78fa9b8e24c"
+    },
+    {
+      "task_set_id": "train_n3_u95_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n3_u95_constrained_bursts_r1.json",
+      "workload_sha256": "6ca67d451b951604f0308cdd697a56b03030c5bc89a8fca5fea9b64b97b93e0a"
+    },
+    {
+      "task_set_id": "train_n3_u110_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n3_u110_implicit_synchronous_r0.json",
+      "workload_sha256": "b8423ada9ee1abdc95724a7465f26678c6762076d464d4b8110315c9430fb959"
+    },
+    {
+      "task_set_id": "train_n3_u110_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n3_u110_implicit_synchronous_r1.json",
+      "workload_sha256": "48758eb04b51238c7af958b7ed0e7ef27f6f79f1a2560001fbdc9cd30f59cf95"
+    },
+    {
+      "task_set_id": "train_n3_u110_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n3_u110_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "dbf452f0d7e6ee3d01f18329e2250f003a938a4649ceddc57d4b901fae882115"
+    },
+    {
+      "task_set_id": "train_n3_u110_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n3_u110_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "e6a3e5503d87fa1358108b48664346ffa01bea58048b4bcfd73cc44ac140b1f8"
+    },
+    {
+      "task_set_id": "train_n3_u110_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n3_u110_implicit_jitter_r0.json",
+      "workload_sha256": "7c5800c4c4a106aae6a6f9b47bf5d6eb5fe6be883777b9777cdca79ab127035c"
+    },
+    {
+      "task_set_id": "train_n3_u110_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n3_u110_implicit_jitter_r1.json",
+      "workload_sha256": "bea422ba340893dc206dd8f8dfaeb6afaebdb3787a5b9c4611d9a029ced3637e"
+    },
+    {
+      "task_set_id": "train_n3_u110_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n3_u110_implicit_bursts_r0.json",
+      "workload_sha256": "874abb2b08d6e804a647205a0522164f10b8f023af92eeac9250ef53f6e2cf38"
+    },
+    {
+      "task_set_id": "train_n3_u110_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n3_u110_implicit_bursts_r1.json",
+      "workload_sha256": "21916df9ff9dc163570ad54278fdd9d960b9217e272509f30d168dcda284add4"
+    },
+    {
+      "task_set_id": "train_n3_u110_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n3_u110_constrained_synchronous_r0.json",
+      "workload_sha256": "c389a2c6cddf146375bfc52329a14519e456579621e93a6c2fac16ac243dc49e"
+    },
+    {
+      "task_set_id": "train_n3_u110_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n3_u110_constrained_synchronous_r1.json",
+      "workload_sha256": "b506b85d8b0db59f9300a95aba237e8f152d60bf10c17d06b2306dd555049a0f"
+    },
+    {
+      "task_set_id": "train_n3_u110_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n3_u110_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "f17b21d1a2838eca9d724796433922ae3cdc916627c3f20629e8005075311a01"
+    },
+    {
+      "task_set_id": "train_n3_u110_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n3_u110_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "e1768d22f1f0cf15239c33a3eb6f643c95cc109794ed3448507c06af58a8f71e"
+    },
+    {
+      "task_set_id": "train_n3_u110_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n3_u110_constrained_jitter_r0.json",
+      "workload_sha256": "125e1b73c8d9035253645dba885dc60f6d00cbb396031c0d82a8d054cbd38c8f"
+    },
+    {
+      "task_set_id": "train_n3_u110_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n3_u110_constrained_jitter_r1.json",
+      "workload_sha256": "751a9a878d717252c417dd5110ecf009863259340d527f5aab71075a5d6c47dc"
+    },
+    {
+      "task_set_id": "train_n3_u110_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n3_u110_constrained_bursts_r0.json",
+      "workload_sha256": "8cac2821bde025b8104967ced44800a505836810bb806ba14a3f54402b7f9a10"
+    },
+    {
+      "task_set_id": "train_n3_u110_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n3_u110_constrained_bursts_r1.json",
+      "workload_sha256": "1d1a861b11955533ac6d9908a5fb9388b8216bc7abf676d310fbc78c82b89b57"
+    },
+    {
+      "task_set_id": "train_n5_u40_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n5_u40_implicit_synchronous_r0.json",
+      "workload_sha256": "aa863eaf2ed7f33c9924516d6584c84bfc470e3b337709aca886fed0d6d215f8"
+    },
+    {
+      "task_set_id": "train_n5_u40_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n5_u40_implicit_synchronous_r1.json",
+      "workload_sha256": "9f2edcabfe3705f2380b358a63bae1b224ba25733a00c3cf619ac698077e5ca1"
+    },
+    {
+      "task_set_id": "train_n5_u40_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n5_u40_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "b355937d99fa696e4a90bff962138e248d0c0c441dcfcf9d118de4bfde6ab252"
+    },
+    {
+      "task_set_id": "train_n5_u40_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n5_u40_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "2000a1424651f11efd2c2d44b7254daf55d8b4ea671fc645e09c19d56e46526a"
+    },
+    {
+      "task_set_id": "train_n5_u40_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n5_u40_implicit_jitter_r0.json",
+      "workload_sha256": "16632bcdebdf14772f4e270e187f1cb1171a78fb70ad2ea0135197d8e679948b"
+    },
+    {
+      "task_set_id": "train_n5_u40_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n5_u40_implicit_jitter_r1.json",
+      "workload_sha256": "ba8180173a7bddd51c26868e2d34dcc913cd1e58243140071f677c067a2fb17b"
+    },
+    {
+      "task_set_id": "train_n5_u40_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n5_u40_implicit_bursts_r0.json",
+      "workload_sha256": "e9a0ba27927d027f56f0ddd1e2e55f27cdd296204abcdb71e403ea31e565026b"
+    },
+    {
+      "task_set_id": "train_n5_u40_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n5_u40_implicit_bursts_r1.json",
+      "workload_sha256": "bd85a492c8e000ab2378e4b63057ef5d674519a654244f9c126fa805a4dca8de"
+    },
+    {
+      "task_set_id": "train_n5_u40_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n5_u40_constrained_synchronous_r0.json",
+      "workload_sha256": "4ab8536178cd77f19623bd080979f52db7cdc5cecba58f080262bba04ab0871f"
+    },
+    {
+      "task_set_id": "train_n5_u40_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n5_u40_constrained_synchronous_r1.json",
+      "workload_sha256": "331473a7508581738b422eb79cf012181662ad00c727cf44d541bb2b88b016a7"
+    },
+    {
+      "task_set_id": "train_n5_u40_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n5_u40_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "cb3a3b40df3a84f38e416f7edb2d3632f70f6826b7723b45b448cf05c90d736a"
+    },
+    {
+      "task_set_id": "train_n5_u40_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n5_u40_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "5129b00e1ab425d63adf5036b1678b713f411c42be21a9bf10c9666f6217eebb"
+    },
+    {
+      "task_set_id": "train_n5_u40_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n5_u40_constrained_jitter_r0.json",
+      "workload_sha256": "962c853e9e8b23b2c7cca3e91fe0a93a98f6b5ae58203a0746dc82aebcbd2596"
+    },
+    {
+      "task_set_id": "train_n5_u40_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n5_u40_constrained_jitter_r1.json",
+      "workload_sha256": "0c054ae26ba2f69ed76c1df6f8f69d5187e18477b5d376c64b2b0493ef5c7612"
+    },
+    {
+      "task_set_id": "train_n5_u40_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n5_u40_constrained_bursts_r0.json",
+      "workload_sha256": "02fc23060287134bc759661f6711346c5a6051ca49586fe771901ffeaccf5155"
+    },
+    {
+      "task_set_id": "train_n5_u40_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n5_u40_constrained_bursts_r1.json",
+      "workload_sha256": "7ea7bac123caf63fea7266950f4e40ee8f40cfc7a6172cf6de29972308981f15"
+    },
+    {
+      "task_set_id": "train_n5_u60_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n5_u60_implicit_synchronous_r0.json",
+      "workload_sha256": "b55ab33d91fb6352f592ffdab25124988a3a17e6e0e7cb322ebe626c04217ea6"
+    },
+    {
+      "task_set_id": "train_n5_u60_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n5_u60_implicit_synchronous_r1.json",
+      "workload_sha256": "6aeb8f16dc9fac84658bb0b6d782c1e27f5d243b81c159dba613ad26336b7ef1"
+    },
+    {
+      "task_set_id": "train_n5_u60_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n5_u60_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "20a4390a912527b9a9a69b302ec7c1c5ebaf1fa9921075d64e182f15f3388966"
+    },
+    {
+      "task_set_id": "train_n5_u60_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n5_u60_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "ddeb94fb584bc7c82695ad251ba89928be6a20ff68fa1df8fd0904a704dca33f"
+    },
+    {
+      "task_set_id": "train_n5_u60_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n5_u60_implicit_jitter_r0.json",
+      "workload_sha256": "986e91c6104ad2b1be54ddbff01ef0024ab43ed5d2cd5c2132c2a37236fe94cb"
+    },
+    {
+      "task_set_id": "train_n5_u60_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n5_u60_implicit_jitter_r1.json",
+      "workload_sha256": "436965eea7b0fe293cbe994f5b8f4ea1d118e0d617a068608b128bb8a3e81701"
+    },
+    {
+      "task_set_id": "train_n5_u60_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n5_u60_implicit_bursts_r0.json",
+      "workload_sha256": "0d7fa3f6a144f998715ec7d9de264ca48bd871367fade6a1d5fad79db93a9e1d"
+    },
+    {
+      "task_set_id": "train_n5_u60_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n5_u60_implicit_bursts_r1.json",
+      "workload_sha256": "03e98a9f6c8f3ce3a77fb11d6575bd02c0b4feeed44ee3b864fe1a643ff6bb3e"
+    },
+    {
+      "task_set_id": "train_n5_u60_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n5_u60_constrained_synchronous_r0.json",
+      "workload_sha256": "da72babb4901bf5d514a400f4af662a7477fa454519c79cacc95416c9fab6965"
+    },
+    {
+      "task_set_id": "train_n5_u60_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n5_u60_constrained_synchronous_r1.json",
+      "workload_sha256": "b8cbaa81e0ecfa688389505a61aa8f0eed234001780d244639a937c58cfa2752"
+    },
+    {
+      "task_set_id": "train_n5_u60_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n5_u60_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "0fec60789aa82b7e3f29b1bdbcba7cc689376fe7bf1e402c51a494b243d5f908"
+    },
+    {
+      "task_set_id": "train_n5_u60_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n5_u60_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "a585db8cdfc8c56f3b771258cefa3f88d286287caee8410ab0c956143bbf688b"
+    },
+    {
+      "task_set_id": "train_n5_u60_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n5_u60_constrained_jitter_r0.json",
+      "workload_sha256": "acc3c7668b6bf71c5737fc38696147d999d7a1721194656dccf53f2bc99bdedf"
+    },
+    {
+      "task_set_id": "train_n5_u60_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n5_u60_constrained_jitter_r1.json",
+      "workload_sha256": "d46093743ff6238160aa933acbe3b2b7ae58f2cefd7763bd220f85ecfac0a8e4"
+    },
+    {
+      "task_set_id": "train_n5_u60_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n5_u60_constrained_bursts_r0.json",
+      "workload_sha256": "0f0098f3bf1a1b925b50d5da66b3afeba73a091840454a532d60094732d7a314"
+    },
+    {
+      "task_set_id": "train_n5_u60_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n5_u60_constrained_bursts_r1.json",
+      "workload_sha256": "6b7be1aa0a43341b46800347f383f433e8ffbc390606f73ca2323471cd70de4e"
+    },
+    {
+      "task_set_id": "train_n5_u80_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n5_u80_implicit_synchronous_r0.json",
+      "workload_sha256": "15a12bc3322b19b8ba5de45d84b6dc51f75b363e1235d27709dfedc252fd1765"
+    },
+    {
+      "task_set_id": "train_n5_u80_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n5_u80_implicit_synchronous_r1.json",
+      "workload_sha256": "46312e2a2366adbb6fcfd8e7a1e5f03855ce2063cf26ae5a7cdb4f9725dead4d"
+    },
+    {
+      "task_set_id": "train_n5_u80_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n5_u80_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "b9b60fa62c1db4f63bf112d6eaee7bf706ddf5fb5a395e91013f1e15073460e2"
+    },
+    {
+      "task_set_id": "train_n5_u80_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n5_u80_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "170404b62eea73f73fdd0f3fde9bb64ea1cb39395af48c86d4b2dbcdff0dacd7"
+    },
+    {
+      "task_set_id": "train_n5_u80_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n5_u80_implicit_jitter_r0.json",
+      "workload_sha256": "b11351303b732fa2ce2980e0dbb862e17fd1dd1da74e6934e227f7a50f6382d7"
+    },
+    {
+      "task_set_id": "train_n5_u80_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n5_u80_implicit_jitter_r1.json",
+      "workload_sha256": "adb0b45402677658d58fd066379621aca57bd1ccf1a8bf246a163e96d4861348"
+    },
+    {
+      "task_set_id": "train_n5_u80_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n5_u80_implicit_bursts_r0.json",
+      "workload_sha256": "12751623d02178c9a903cf9c89c30763760e4fc1c0ff571cfbe6dd232f921869"
+    },
+    {
+      "task_set_id": "train_n5_u80_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n5_u80_implicit_bursts_r1.json",
+      "workload_sha256": "387a34ee33bc992b9191b3ea251e4d8b5c47120d4112995574c8c88b5af98405"
+    },
+    {
+      "task_set_id": "train_n5_u80_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n5_u80_constrained_synchronous_r0.json",
+      "workload_sha256": "dfc1a48efd3565a47995a98f54cab8fab028e58e844abe14f89985773f52e2f2"
+    },
+    {
+      "task_set_id": "train_n5_u80_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n5_u80_constrained_synchronous_r1.json",
+      "workload_sha256": "4db491818a39b464aa036b21ac2c3042a94f7d5d142016926c9dc376e81dc9e5"
+    },
+    {
+      "task_set_id": "train_n5_u80_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n5_u80_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "c377696b7aeac6515d2d4a28dd07711fbb865e4f53c28df702b7d8d76fb5f3e6"
+    },
+    {
+      "task_set_id": "train_n5_u80_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n5_u80_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "65260df81bc257a006f17cc5ae69ffa42fd9614c21e41feb3b2d589f230283f4"
+    },
+    {
+      "task_set_id": "train_n5_u80_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n5_u80_constrained_jitter_r0.json",
+      "workload_sha256": "82fa9943b10782085b7b1bcdaef3f6cdd0232f26cbedcd8a18e903e24f8fe111"
+    },
+    {
+      "task_set_id": "train_n5_u80_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n5_u80_constrained_jitter_r1.json",
+      "workload_sha256": "6fc23fedc974707c3dc88da80e1f9c4ed6ebbecb51ac73e6f7f364f0d85eac96"
+    },
+    {
+      "task_set_id": "train_n5_u80_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n5_u80_constrained_bursts_r0.json",
+      "workload_sha256": "7fcd9697ebcb194a707edc2c716e03191914370529617cb1e2a85897ecadfe90"
+    },
+    {
+      "task_set_id": "train_n5_u80_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n5_u80_constrained_bursts_r1.json",
+      "workload_sha256": "0dfc75a5d1e87e438e710be0f6d285b9ab2d91cadade7547ee74f7d69addbe9a"
+    },
+    {
+      "task_set_id": "train_n5_u95_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n5_u95_implicit_synchronous_r0.json",
+      "workload_sha256": "835488c22c5a1e87650b0810bc269df47bb228f18592320c787778c6b89ff33c"
+    },
+    {
+      "task_set_id": "train_n5_u95_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n5_u95_implicit_synchronous_r1.json",
+      "workload_sha256": "065a3992ce8c154fb91bb28f270380967cdee25d5073647a6c3b80874220d301"
+    },
+    {
+      "task_set_id": "train_n5_u95_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n5_u95_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "9d1268d0b0a916fc7509a810f03544f29fccd965e91c394671c3d38682e18674"
+    },
+    {
+      "task_set_id": "train_n5_u95_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n5_u95_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "3b3c24dfcbf8e4f7ab8dc83f13be198fd9f8f97789ba43c9e3ba374e187c9f2c"
+    },
+    {
+      "task_set_id": "train_n5_u95_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n5_u95_implicit_jitter_r0.json",
+      "workload_sha256": "a715a11394169335a689a7f3b35fbf2eefff51d7c0c0b20068e820387117fdee"
+    },
+    {
+      "task_set_id": "train_n5_u95_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n5_u95_implicit_jitter_r1.json",
+      "workload_sha256": "8285eac382c6cc0ded5cd0ab1c3c003a214acd8be14c4936fed2f33c40feaa43"
+    },
+    {
+      "task_set_id": "train_n5_u95_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n5_u95_implicit_bursts_r0.json",
+      "workload_sha256": "157a58ce29a4c59f068828c72a7e216464a73e898f476be56271ed46e6386e3a"
+    },
+    {
+      "task_set_id": "train_n5_u95_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n5_u95_implicit_bursts_r1.json",
+      "workload_sha256": "67fbf09afa680b784a6661c6ea69893d7682fe152e861266aa4405a2117a63cf"
+    },
+    {
+      "task_set_id": "train_n5_u95_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n5_u95_constrained_synchronous_r0.json",
+      "workload_sha256": "f3fb7c0bd588b24b9998817add5a6956fc61982d22a380a6aea71928e9b4ed7b"
+    },
+    {
+      "task_set_id": "train_n5_u95_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n5_u95_constrained_synchronous_r1.json",
+      "workload_sha256": "4ebb6c92befb745523ea2c32d257042c5db3f501dc4562402005c0541bc2e52f"
+    },
+    {
+      "task_set_id": "train_n5_u95_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n5_u95_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "b7319fd32d4e47a50b947ed9f8d8337734ca8163c8be1edcb743f4217a3a6af8"
+    },
+    {
+      "task_set_id": "train_n5_u95_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n5_u95_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "740b666ebf0578240ef7ec00dd59ec2f8fac6fe491cf37f94f5efaa4d2118d17"
+    },
+    {
+      "task_set_id": "train_n5_u95_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n5_u95_constrained_jitter_r0.json",
+      "workload_sha256": "3bdf81dcc865a20144ba767077ddc5a29b2a511f545275057c97ec669de6f7ff"
+    },
+    {
+      "task_set_id": "train_n5_u95_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n5_u95_constrained_jitter_r1.json",
+      "workload_sha256": "4239c5504ee1ae76e1686eee6491796cba7c233004e30f5ef6621208fd028f28"
+    },
+    {
+      "task_set_id": "train_n5_u95_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n5_u95_constrained_bursts_r0.json",
+      "workload_sha256": "7093e3b84f0e9f5a3bc3e72723d35b8a3a7af7268af3ae40fe9e1f98e38e472b"
+    },
+    {
+      "task_set_id": "train_n5_u95_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n5_u95_constrained_bursts_r1.json",
+      "workload_sha256": "e9cd11818ade851837b3ede01649254d032ffd1908ae4eb4412e70fd9eaa1095"
+    },
+    {
+      "task_set_id": "train_n5_u110_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n5_u110_implicit_synchronous_r0.json",
+      "workload_sha256": "9c06809f67fb9679717ef998fcf667fdec026978ef7a2d3d130c6e7b225784e0"
+    },
+    {
+      "task_set_id": "train_n5_u110_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n5_u110_implicit_synchronous_r1.json",
+      "workload_sha256": "fbc999a38beeff23ab803c7065d8b5dd3eba52d1f1a867a4d369761b4896d7ab"
+    },
+    {
+      "task_set_id": "train_n5_u110_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n5_u110_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "1bc824f8c6fc98eb19484b26d8f985020b04ed54bc0630ec2ef8be2d98853b6e"
+    },
+    {
+      "task_set_id": "train_n5_u110_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n5_u110_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "62058e9b23c3954bece823ab8425eb6bed95150fd8defcddf44da4b9549af39e"
+    },
+    {
+      "task_set_id": "train_n5_u110_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n5_u110_implicit_jitter_r0.json",
+      "workload_sha256": "c57a6d09dc729c65787f730f968102ede408222c67b2d4befcb526804f0696e3"
+    },
+    {
+      "task_set_id": "train_n5_u110_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n5_u110_implicit_jitter_r1.json",
+      "workload_sha256": "68ace3be7109a3e689618791b24cdca14ff07ab4d626c8ac14ec00a282ca28e4"
+    },
+    {
+      "task_set_id": "train_n5_u110_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n5_u110_implicit_bursts_r0.json",
+      "workload_sha256": "302f2e614c85cad4633963257d778b417dd92d4e3d915d0e773d2aae396a6d60"
+    },
+    {
+      "task_set_id": "train_n5_u110_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n5_u110_implicit_bursts_r1.json",
+      "workload_sha256": "8a94aacac45ea9ba345c179d4d8a9eac54a20553ccadeac14a962141df3aadb2"
+    },
+    {
+      "task_set_id": "train_n5_u110_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n5_u110_constrained_synchronous_r0.json",
+      "workload_sha256": "0101552fe82160b7a816a646c683c048ecd4801df4cc1d90d58e68dbf7b8e969"
+    },
+    {
+      "task_set_id": "train_n5_u110_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n5_u110_constrained_synchronous_r1.json",
+      "workload_sha256": "9d6a140684b74f2e7e9a495725bb2ea665e04190ec208fe46c32ec8f15ea340c"
+    },
+    {
+      "task_set_id": "train_n5_u110_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n5_u110_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "ace2fb6c83707c5ebca2a5be08ddfdf9a162ed1695226506e44abb56185715a9"
+    },
+    {
+      "task_set_id": "train_n5_u110_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n5_u110_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "2ebf5f85e7eb018b096a2a3680c4fca2eab8da5fcdec79d53eeeb2c9f68b62b8"
+    },
+    {
+      "task_set_id": "train_n5_u110_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n5_u110_constrained_jitter_r0.json",
+      "workload_sha256": "2f00d2aad77b7188454e975d068e9506615b8a474efa5fb4141c8583daa6255d"
+    },
+    {
+      "task_set_id": "train_n5_u110_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n5_u110_constrained_jitter_r1.json",
+      "workload_sha256": "6880a0d87ffedd3484e3bd3997d5d73104477353c82c72c558053118f3c244b7"
+    },
+    {
+      "task_set_id": "train_n5_u110_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n5_u110_constrained_bursts_r0.json",
+      "workload_sha256": "e0bc233bbd1b04ecfec137f7acf21e210cad84fab05bf85c28654dc4f42efd42"
+    },
+    {
+      "task_set_id": "train_n5_u110_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n5_u110_constrained_bursts_r1.json",
+      "workload_sha256": "246e8c5fa4618295ba519745e38e20799c65e5107e345a3b33300663045caff9"
+    },
+    {
+      "task_set_id": "train_n8_u40_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n8_u40_implicit_synchronous_r0.json",
+      "workload_sha256": "9138e57c9285b6fe52a5a03dcb6bde956557b565a2d9dd91e955fc7ffe36647a"
+    },
+    {
+      "task_set_id": "train_n8_u40_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n8_u40_implicit_synchronous_r1.json",
+      "workload_sha256": "b4b8c0b0c9e9063047606ff6a6788623dd88dc849609e883498da2d4e65413b2"
+    },
+    {
+      "task_set_id": "train_n8_u40_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n8_u40_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "4e160de8fc38125bf91a0624540cd861d73abd7987887fd6135ace6a31007474"
+    },
+    {
+      "task_set_id": "train_n8_u40_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n8_u40_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "d272f4095b13691a5f3d35541bb602162a45b95db6286927cd6a2d1e1ecdf76a"
+    },
+    {
+      "task_set_id": "train_n8_u40_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n8_u40_implicit_jitter_r0.json",
+      "workload_sha256": "fcd56b53768f0c2188ed5b3db75512db63a3a10f439553c333dbe19baee7b47f"
+    },
+    {
+      "task_set_id": "train_n8_u40_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n8_u40_implicit_jitter_r1.json",
+      "workload_sha256": "06d64c0547e040083713dfd155d797d9fe04b817c41efaf4dcae6a62ef100032"
+    },
+    {
+      "task_set_id": "train_n8_u40_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n8_u40_implicit_bursts_r0.json",
+      "workload_sha256": "38b1911554e944459a2617526c5c061688d3167fe18e07984d6aa23f4ae6e18a"
+    },
+    {
+      "task_set_id": "train_n8_u40_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n8_u40_implicit_bursts_r1.json",
+      "workload_sha256": "2fbd314949ea59a9e2a66613b05b79b6b2e2edfdc93b1b80396f8d2fd98c96f7"
+    },
+    {
+      "task_set_id": "train_n8_u40_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n8_u40_constrained_synchronous_r0.json",
+      "workload_sha256": "35f71906f5070251abddccec17c511d9fb2547875538cd6f5eca9f62ff3e15f9"
+    },
+    {
+      "task_set_id": "train_n8_u40_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n8_u40_constrained_synchronous_r1.json",
+      "workload_sha256": "d72e6ba673a74304e37d931b22a586bc72fcfe5f4f8f101788415b6fd73e4ea4"
+    },
+    {
+      "task_set_id": "train_n8_u40_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n8_u40_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "4268933c0bde074f71b1c62ca4dd99e4d3681567fbc6263695a7caaf7861bae4"
+    },
+    {
+      "task_set_id": "train_n8_u40_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n8_u40_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "b44c84ecf806bb294f1dfa4a8d119d0fe85d5af2658662db13918c3dd1cc0d2e"
+    },
+    {
+      "task_set_id": "train_n8_u40_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n8_u40_constrained_jitter_r0.json",
+      "workload_sha256": "19c69b41037661f91b7c6e40baf1fe6827074032ffa2236cf33aa49b94982652"
+    },
+    {
+      "task_set_id": "train_n8_u40_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n8_u40_constrained_jitter_r1.json",
+      "workload_sha256": "e138dcc2ae90adf2e35d64b6bc10d30da0049189c8ff30f7370778ba9c562a24"
+    },
+    {
+      "task_set_id": "train_n8_u40_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n8_u40_constrained_bursts_r0.json",
+      "workload_sha256": "2d779d4b8d756441039f074c765a68595af36349ce824995403ad569985fa999"
+    },
+    {
+      "task_set_id": "train_n8_u40_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n8_u40_constrained_bursts_r1.json",
+      "workload_sha256": "b378bd8f2ef0b1153e03ac3f824671b5e81d6423fa51510c5b76971c755f84d6"
+    },
+    {
+      "task_set_id": "train_n8_u60_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n8_u60_implicit_synchronous_r0.json",
+      "workload_sha256": "85ac2f6e63e407a3a68675a3b93898bbb908c89c9e87ba8058e8e7761cfa240f"
+    },
+    {
+      "task_set_id": "train_n8_u60_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n8_u60_implicit_synchronous_r1.json",
+      "workload_sha256": "dda53b25dcd8f9df80868a8a20901303adf60b675f0810f7827a0a8a4b764d27"
+    },
+    {
+      "task_set_id": "train_n8_u60_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n8_u60_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "80810f7803e87a2576feabdbc23e6d69f9334096bcce6f2cbcc0d018bf1daed3"
+    },
+    {
+      "task_set_id": "train_n8_u60_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n8_u60_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "441581532890cd0d85e0b2132f0b8dbeda3fff520d9883a9f4f343367d06b1a9"
+    },
+    {
+      "task_set_id": "train_n8_u60_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n8_u60_implicit_jitter_r0.json",
+      "workload_sha256": "d35f6496e5f9b390596d916f718ee102e3802e68505757a3174e2abffd38212d"
+    },
+    {
+      "task_set_id": "train_n8_u60_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n8_u60_implicit_jitter_r1.json",
+      "workload_sha256": "004cbf23ce62986f9d4196ffec80523f67a7fb0991cf324816c7ce0bbc994448"
+    },
+    {
+      "task_set_id": "train_n8_u60_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n8_u60_implicit_bursts_r0.json",
+      "workload_sha256": "fc940913e9f533ddf481133f1b5e5a7230da07efa92358783584a5d9d3d3a235"
+    },
+    {
+      "task_set_id": "train_n8_u60_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n8_u60_implicit_bursts_r1.json",
+      "workload_sha256": "6036f80cf7a3e02fe28cf9e21a6d0b217b4702f5ce7d7fe49645e12410219cb0"
+    },
+    {
+      "task_set_id": "train_n8_u60_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n8_u60_constrained_synchronous_r0.json",
+      "workload_sha256": "60ee0dde775d8baba395d37816326ca6e15f5f1157ed15ab3c5c93bfb7e83a47"
+    },
+    {
+      "task_set_id": "train_n8_u60_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n8_u60_constrained_synchronous_r1.json",
+      "workload_sha256": "e533343a5babfdf0528c7d44748b3a87213ca99d12a7e90969fec822765438d6"
+    },
+    {
+      "task_set_id": "train_n8_u60_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n8_u60_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "ae1203937a5a7d2be3a8545d8f6ab3aa487935789aa5452dc21436f867a527de"
+    },
+    {
+      "task_set_id": "train_n8_u60_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n8_u60_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "df2fccdd3da92fe8b7f5166a6dc6b44f891c576f0cc8d83bda489ff24cc4bcfe"
+    },
+    {
+      "task_set_id": "train_n8_u60_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n8_u60_constrained_jitter_r0.json",
+      "workload_sha256": "c0c996bb1879b227122dd5a1108f51ec91b1006901ce9f2732a00c395fbc28c2"
+    },
+    {
+      "task_set_id": "train_n8_u60_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n8_u60_constrained_jitter_r1.json",
+      "workload_sha256": "8df0d56e68d2694ebf871af7fe34f1a8d930cba98daaa4c789e05d42e590cd26"
+    },
+    {
+      "task_set_id": "train_n8_u60_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n8_u60_constrained_bursts_r0.json",
+      "workload_sha256": "de31c4a566a0f2cf72d6430e30d87e4b40b8a278d575a7f6d644be1c4350607a"
+    },
+    {
+      "task_set_id": "train_n8_u60_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n8_u60_constrained_bursts_r1.json",
+      "workload_sha256": "a1b5c1d0b7b21c6fac76a3f2f1a3d77603330dd668f784502aba1aa2cebd10b7"
+    },
+    {
+      "task_set_id": "train_n8_u80_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n8_u80_implicit_synchronous_r0.json",
+      "workload_sha256": "563e3fe79e2be0655cc87a06476c8dbb9f349498117c607ce84554f731734c4d"
+    },
+    {
+      "task_set_id": "train_n8_u80_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n8_u80_implicit_synchronous_r1.json",
+      "workload_sha256": "95ec5673b10061fecf8b4ce935ffaaa47c4dc671e8c94ae3bea583f831730326"
+    },
+    {
+      "task_set_id": "train_n8_u80_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n8_u80_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "bf55c77c92db64c40f98beaf2efef8ddf1f892f225a2fef184e70b93212acb63"
+    },
+    {
+      "task_set_id": "train_n8_u80_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n8_u80_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "19a429bfcfdd24a3197c6ad90129cc0f682a4f91382d459a42f6b08c3e8f6b87"
+    },
+    {
+      "task_set_id": "train_n8_u80_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n8_u80_implicit_jitter_r0.json",
+      "workload_sha256": "3549b16bfc66fdac6b62b47dd5694bc6a475d90b6c50b3f98e801cba99421fc8"
+    },
+    {
+      "task_set_id": "train_n8_u80_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n8_u80_implicit_jitter_r1.json",
+      "workload_sha256": "9f4b138bc03a7b546e72308dc53135e5288e6500d096ff16755670b5e6918a4c"
+    },
+    {
+      "task_set_id": "train_n8_u80_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n8_u80_implicit_bursts_r0.json",
+      "workload_sha256": "62636bb0f88666ff98e79ca2bf7605dc1a1f22c991b2e74c56cd97b0c691fda1"
+    },
+    {
+      "task_set_id": "train_n8_u80_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n8_u80_implicit_bursts_r1.json",
+      "workload_sha256": "005021c0606c7e1b127a71778ebae21ecc0952260f68daff5cf5dc7f69134c39"
+    },
+    {
+      "task_set_id": "train_n8_u80_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n8_u80_constrained_synchronous_r0.json",
+      "workload_sha256": "3e9c6f0e8802006c9b934d9b5f36d5076ce56ac5ba6e23e003d46d96ab2dc66d"
+    },
+    {
+      "task_set_id": "train_n8_u80_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n8_u80_constrained_synchronous_r1.json",
+      "workload_sha256": "d45b0331155a668382925df4bc7b658ba9216ffbed39f28845ec29f119ac08cc"
+    },
+    {
+      "task_set_id": "train_n8_u80_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n8_u80_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "d78daa1571edd8a3895207a015975cbe970515ecb2630b7da01d58cd926796d2"
+    },
+    {
+      "task_set_id": "train_n8_u80_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n8_u80_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "cf909ecd5a50c8cb570d9cca01f295fc82aa3cc75fb809b84a7a3057d9b99e34"
+    },
+    {
+      "task_set_id": "train_n8_u80_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n8_u80_constrained_jitter_r0.json",
+      "workload_sha256": "8a1734f2f809b2166a4ee4409cb283ade55d394acc8ba1d5786c4135ff898d5b"
+    },
+    {
+      "task_set_id": "train_n8_u80_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n8_u80_constrained_jitter_r1.json",
+      "workload_sha256": "8316cf83f1e184b8a3d2941fc0a922158fd479c91cfef1df89136b417fe8ea9f"
+    },
+    {
+      "task_set_id": "train_n8_u80_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n8_u80_constrained_bursts_r0.json",
+      "workload_sha256": "56d280e04d40398ec858d758bb9bab2007a86cfbd848a8bbb1d74d547d08dfeb"
+    },
+    {
+      "task_set_id": "train_n8_u80_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n8_u80_constrained_bursts_r1.json",
+      "workload_sha256": "162bd969456113eb36b8feb9db9e6ff4f630400c5ea8a883e25a368a02fc1d9e"
+    },
+    {
+      "task_set_id": "train_n8_u95_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n8_u95_implicit_synchronous_r0.json",
+      "workload_sha256": "de866b1f6abe9ad0460424881677e3f7adf93259cc33d7dc0c84a3baffe5989a"
+    },
+    {
+      "task_set_id": "train_n8_u95_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n8_u95_implicit_synchronous_r1.json",
+      "workload_sha256": "d7edb407a57a72ded3a41df608ffb15b8c97a6b9794c291b80aaff1bf65e81ae"
+    },
+    {
+      "task_set_id": "train_n8_u95_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n8_u95_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "2650243c72596799f5bca0ecebdc5306f724a2a00b3843c140e220bb33d96181"
+    },
+    {
+      "task_set_id": "train_n8_u95_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n8_u95_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "d8a24ab5d971cd2a77c51ee1bf5a75dbabfaaf8be4679c00fd27ffc97cc0e00f"
+    },
+    {
+      "task_set_id": "train_n8_u95_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n8_u95_implicit_jitter_r0.json",
+      "workload_sha256": "575e72bc96cc66ead2a7fffc7bd0633847d8e828753617e4eee2025e6cd3cf1b"
+    },
+    {
+      "task_set_id": "train_n8_u95_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n8_u95_implicit_jitter_r1.json",
+      "workload_sha256": "97c061cef24abbadab81049553fdcdfc1319798fecbde2f7aa40bd244db1fb53"
+    },
+    {
+      "task_set_id": "train_n8_u95_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n8_u95_implicit_bursts_r0.json",
+      "workload_sha256": "79bcc3a9cf07dfcf3870ec0f4382cc9ca77e7f2ee51c4466c7a4675264d23fdd"
+    },
+    {
+      "task_set_id": "train_n8_u95_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n8_u95_implicit_bursts_r1.json",
+      "workload_sha256": "7c924b8d1d0c8c0aed10bac52852dcc171784487f69cf9eae5cec0b061470014"
+    },
+    {
+      "task_set_id": "train_n8_u95_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n8_u95_constrained_synchronous_r0.json",
+      "workload_sha256": "193091d8ec6a01f1108609557e112c23f1a76af96eb2dce2fdb260875aea9e8c"
+    },
+    {
+      "task_set_id": "train_n8_u95_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n8_u95_constrained_synchronous_r1.json",
+      "workload_sha256": "a5757a60b7314acd5c984df6eda608a556a8795718530b354431611da078bf54"
+    },
+    {
+      "task_set_id": "train_n8_u95_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n8_u95_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "295af1464464991c7430d4f99348bc63704f4a8ecee06f89559cfe0bc880e563"
+    },
+    {
+      "task_set_id": "train_n8_u95_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n8_u95_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "0255fbf000fe2d865c9906aff56812aacd1233a8ae3718ce727d7eadc8f4b817"
+    },
+    {
+      "task_set_id": "train_n8_u95_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n8_u95_constrained_jitter_r0.json",
+      "workload_sha256": "5070480254810187c7b9f9fece4249b08600497c3032cc9a5f23297d856a7f0a"
+    },
+    {
+      "task_set_id": "train_n8_u95_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n8_u95_constrained_jitter_r1.json",
+      "workload_sha256": "d622b8181e5aed2bd21aa246043dbfc6603c0713b240c92349852022836e974d"
+    },
+    {
+      "task_set_id": "train_n8_u95_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n8_u95_constrained_bursts_r0.json",
+      "workload_sha256": "848f97209c7c2ab37fe612e6df1da524f81efd677ec5fa16234c4fb101601a5a"
+    },
+    {
+      "task_set_id": "train_n8_u95_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n8_u95_constrained_bursts_r1.json",
+      "workload_sha256": "8a924ba5d900efaa02c1f4c92084da146d781cfbb1a65fbf03b5e67176980272"
+    },
+    {
+      "task_set_id": "train_n8_u110_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n8_u110_implicit_synchronous_r0.json",
+      "workload_sha256": "7fd939429120fd1b51c8bdcd8f5debb42658ce3095994fea5a38b1123773df9b"
+    },
+    {
+      "task_set_id": "train_n8_u110_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n8_u110_implicit_synchronous_r1.json",
+      "workload_sha256": "7f29e22005b8c60d0a2ed448f27e8f2b524b71c271959d7b208ce31f46443f33"
+    },
+    {
+      "task_set_id": "train_n8_u110_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n8_u110_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "8a6142a79537e5d0544fe6a5bb950706c137726367f4c41f9916a1b17b6fbf77"
+    },
+    {
+      "task_set_id": "train_n8_u110_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n8_u110_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "4b253b5bb201d8440878d36abc9920bc149e8c5831ba1b27442abbccf3185759"
+    },
+    {
+      "task_set_id": "train_n8_u110_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n8_u110_implicit_jitter_r0.json",
+      "workload_sha256": "9956d3fd106f1acc28c678b0b1d460e59cb7e758e6c87c4ab236281abc234703"
+    },
+    {
+      "task_set_id": "train_n8_u110_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n8_u110_implicit_jitter_r1.json",
+      "workload_sha256": "1442075b0fedae55d15fc14728dff16b3431e2d94235c14631fb8255905929c5"
+    },
+    {
+      "task_set_id": "train_n8_u110_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n8_u110_implicit_bursts_r0.json",
+      "workload_sha256": "c01dc20f1c5f510a59b5d406672208a9c90cb08e782608fcbb057809fdcefee4"
+    },
+    {
+      "task_set_id": "train_n8_u110_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n8_u110_implicit_bursts_r1.json",
+      "workload_sha256": "976273509e8b336fe44a8fb1e049c55de58588a06c49a2b510540441e3fb6f7b"
+    },
+    {
+      "task_set_id": "train_n8_u110_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n8_u110_constrained_synchronous_r0.json",
+      "workload_sha256": "b06bdf12a1e37a2d9a9074a85aab0fa572411665755890e7443b3c877e3216ac"
+    },
+    {
+      "task_set_id": "train_n8_u110_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n8_u110_constrained_synchronous_r1.json",
+      "workload_sha256": "f99aabc8a4748dc958c6a50b846c4700a5ea53002e83b9f39a78b2d5095a4f8c"
+    },
+    {
+      "task_set_id": "train_n8_u110_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n8_u110_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "b4dce90ccb16114fc9700274c536e7374b585fa02938fc636326b0ee069bfb23"
+    },
+    {
+      "task_set_id": "train_n8_u110_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n8_u110_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "b6678488bcac0f42e81239400a85b8c42a3d069bc80c1fba5413e949c8fcfca1"
+    },
+    {
+      "task_set_id": "train_n8_u110_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n8_u110_constrained_jitter_r0.json",
+      "workload_sha256": "0a57dd853270fea9fa869ce4a214711686e190fcd30a5ba6a3bc669e120b1eb4"
+    },
+    {
+      "task_set_id": "train_n8_u110_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n8_u110_constrained_jitter_r1.json",
+      "workload_sha256": "7e0a14e0ced11937a969e8e4233422821afe8b72e9fe47d2d51c77212775e23d"
+    },
+    {
+      "task_set_id": "train_n8_u110_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n8_u110_constrained_bursts_r0.json",
+      "workload_sha256": "308be6b1ff900a2ecd7b401f57a481092bf119124338579097c526b730617b9f"
+    },
+    {
+      "task_set_id": "train_n8_u110_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n8_u110_constrained_bursts_r1.json",
+      "workload_sha256": "868189bccee72fcdaa84afc0d86149a373eacfafcb366e8858911eb2c9616005"
+    },
+    {
+      "task_set_id": "train_n10_u40_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n10_u40_implicit_synchronous_r0.json",
+      "workload_sha256": "001191f113266eb639f44a262a9e616d04498522745100e70498a072d6da9714"
+    },
+    {
+      "task_set_id": "train_n10_u40_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n10_u40_implicit_synchronous_r1.json",
+      "workload_sha256": "4e9134480a76ead86aca84754fac80d2559dbf62d00b69078ebdf1c4b6e0cd7b"
+    },
+    {
+      "task_set_id": "train_n10_u40_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n10_u40_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "aa31f78b1b6863d1ab07bc58964798df9ed37d09b3d17758792bebe2a5ba84a7"
+    },
+    {
+      "task_set_id": "train_n10_u40_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n10_u40_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "6917c1e2f3a9e86affb61f89113568a9d7028dfa92795ecd0eb1433ea11d5bb9"
+    },
+    {
+      "task_set_id": "train_n10_u40_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n10_u40_implicit_jitter_r0.json",
+      "workload_sha256": "a1d969e9bbb85f4c13bf5cf20e103d3a8e029b3a31c03af2fe13d9a54d1b8653"
+    },
+    {
+      "task_set_id": "train_n10_u40_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n10_u40_implicit_jitter_r1.json",
+      "workload_sha256": "3929544092ef723cdc6a12344abe13e8fd2e652ed272d5bdc3862548f63a854c"
+    },
+    {
+      "task_set_id": "train_n10_u40_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n10_u40_implicit_bursts_r0.json",
+      "workload_sha256": "c30e7b5cf4c2b0fa19db26573941c2faad607d7ae551bb7121d5790eac8625ab"
+    },
+    {
+      "task_set_id": "train_n10_u40_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n10_u40_implicit_bursts_r1.json",
+      "workload_sha256": "2d2955cd374fa6b5f7d0314123508811741aad522472adbdacf30fb89fc85cd3"
+    },
+    {
+      "task_set_id": "train_n10_u40_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n10_u40_constrained_synchronous_r0.json",
+      "workload_sha256": "b1b4ddddbf73e440991e1b0681bbdb103698bce1898edd6241a9ce67c9609142"
+    },
+    {
+      "task_set_id": "train_n10_u40_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n10_u40_constrained_synchronous_r1.json",
+      "workload_sha256": "9116685c92a0e5847ae49219b35091ea70f8ceadb0adc31df6ab1d28f63db0fa"
+    },
+    {
+      "task_set_id": "train_n10_u40_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n10_u40_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "290050bd02bbf07eec190c1be11437cb82773f31c686d1fa71a185f1907ffdf6"
+    },
+    {
+      "task_set_id": "train_n10_u40_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n10_u40_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "5e4b82c7f24073151d525e9ff81d2dcf60bd0f83b4ea5c4c7d2f1523ceef6676"
+    },
+    {
+      "task_set_id": "train_n10_u40_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n10_u40_constrained_jitter_r0.json",
+      "workload_sha256": "ebc2745403c7797df7b088337195ee4893515df38289cce8a715716529a081c7"
+    },
+    {
+      "task_set_id": "train_n10_u40_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n10_u40_constrained_jitter_r1.json",
+      "workload_sha256": "585aa066025b35ebf45f24fe80fcd6674ccbbaa108266780e33d1df1db88e6bb"
+    },
+    {
+      "task_set_id": "train_n10_u40_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n10_u40_constrained_bursts_r0.json",
+      "workload_sha256": "837711ce9ef2b118db8c87538e7f107a2af35a168fe64b2867245e4d2cd0dbff"
+    },
+    {
+      "task_set_id": "train_n10_u40_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n10_u40_constrained_bursts_r1.json",
+      "workload_sha256": "4c59f012f9ac2e6a8f2c7d607b5e33262a393f5de761deddee2ee9b3004be45a"
+    },
+    {
+      "task_set_id": "train_n10_u60_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n10_u60_implicit_synchronous_r0.json",
+      "workload_sha256": "af7fb1b3b6f286a5179eb14d83fad50467d6a22aebf41ce0dc1e6d1d643a21cf"
+    },
+    {
+      "task_set_id": "train_n10_u60_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n10_u60_implicit_synchronous_r1.json",
+      "workload_sha256": "b266b7d2aa49d3af70fc5c74c9ed05e4e18cd26366a23ba9b3a8c6f6dd146ddf"
+    },
+    {
+      "task_set_id": "train_n10_u60_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n10_u60_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "089b77d0b97cbfb6622e6b8e31bc8d7f0699ad02097933b82732722cb29e4273"
+    },
+    {
+      "task_set_id": "train_n10_u60_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n10_u60_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "5c2ac21d2221d02e1cb163013e02861fc2d89a3de20462fb5ac454bcffa880ec"
+    },
+    {
+      "task_set_id": "train_n10_u60_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n10_u60_implicit_jitter_r0.json",
+      "workload_sha256": "dee79fafe72249c56c4f6518932bc737b5836ad6e3cd2e891530db8d496b40cf"
+    },
+    {
+      "task_set_id": "train_n10_u60_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n10_u60_implicit_jitter_r1.json",
+      "workload_sha256": "ddc875f5ee033f8ec902ec6697fe3a3e61243ba823e198c5eded3d14545bc4d8"
+    },
+    {
+      "task_set_id": "train_n10_u60_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n10_u60_implicit_bursts_r0.json",
+      "workload_sha256": "9e68dd602a27c87a795374ebd50827c8c4fcf13756d6c8f0e33785ea3c0a9f28"
+    },
+    {
+      "task_set_id": "train_n10_u60_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n10_u60_implicit_bursts_r1.json",
+      "workload_sha256": "e62c963bf973d1b988bc2c9bf3c3b205e39079cdf55a10ced8a75d0527cdc3cd"
+    },
+    {
+      "task_set_id": "train_n10_u60_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n10_u60_constrained_synchronous_r0.json",
+      "workload_sha256": "2a4cdbedf0cd1bd2ee200047934067f78e3e15ba50f28ad517d476b4d346d449"
+    },
+    {
+      "task_set_id": "train_n10_u60_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n10_u60_constrained_synchronous_r1.json",
+      "workload_sha256": "bc717615e655700784fb17da443e0a75e45f0662edfb93b919fcf74478b7e2d5"
+    },
+    {
+      "task_set_id": "train_n10_u60_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n10_u60_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "577956451468694487265baaad9213f7a0cb6533e002a04af8faf207866bd819"
+    },
+    {
+      "task_set_id": "train_n10_u60_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n10_u60_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "d0e6ff72f4285ffe43df135887ace08eef196a3b8158fbcd131b090c112667c6"
+    },
+    {
+      "task_set_id": "train_n10_u60_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n10_u60_constrained_jitter_r0.json",
+      "workload_sha256": "e6429ae92646c299254935b605f032de284cc2108b25ebd440dcbc56761ff003"
+    },
+    {
+      "task_set_id": "train_n10_u60_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n10_u60_constrained_jitter_r1.json",
+      "workload_sha256": "30b356e4a72a81d87e722d96b0c67f236d0aef0df0b52b6a428b90695f21e9b6"
+    },
+    {
+      "task_set_id": "train_n10_u60_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n10_u60_constrained_bursts_r0.json",
+      "workload_sha256": "355bb42c03fb537ab552e06f4de6dd1a71a6d56dc142c676ea5197117e336843"
+    },
+    {
+      "task_set_id": "train_n10_u60_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n10_u60_constrained_bursts_r1.json",
+      "workload_sha256": "0f46d8ba8fbca642f0d91bafa379ba67480664b95f7ca303187488ad3effaec7"
+    },
+    {
+      "task_set_id": "train_n10_u80_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n10_u80_implicit_synchronous_r0.json",
+      "workload_sha256": "6bb29b92df766b9d6ffcf3fe36518d24c747017136884a1301ab362133c492a5"
+    },
+    {
+      "task_set_id": "train_n10_u80_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n10_u80_implicit_synchronous_r1.json",
+      "workload_sha256": "48183983600ba1edfa2969a255dcb7d737ddb13cba67eedcea4003a1fab225eb"
+    },
+    {
+      "task_set_id": "train_n10_u80_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n10_u80_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "2e28a6641e44a5af6b0aa191859f5943aff627777f096a0247ec293e58a67936"
+    },
+    {
+      "task_set_id": "train_n10_u80_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n10_u80_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "48d808e2041504fbef9633a592c734641cee7e7574020535cc17353bfedc2c6f"
+    },
+    {
+      "task_set_id": "train_n10_u80_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n10_u80_implicit_jitter_r0.json",
+      "workload_sha256": "f8586b9d7cb1848fea8bb9e86dbd769d9677c318fd1e89e868826b33eac4e34e"
+    },
+    {
+      "task_set_id": "train_n10_u80_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n10_u80_implicit_jitter_r1.json",
+      "workload_sha256": "361aa85069023e541751ff0ada48d8005d2367de071aad8d887af6392e46e041"
+    },
+    {
+      "task_set_id": "train_n10_u80_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n10_u80_implicit_bursts_r0.json",
+      "workload_sha256": "000800c71db82b01c6086ff7f0e618a5a749d318e714cebbbcfdf940ba87d4c3"
+    },
+    {
+      "task_set_id": "train_n10_u80_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n10_u80_implicit_bursts_r1.json",
+      "workload_sha256": "2b8e5c8827fafb8b5fa3cbf03e50aef3c1755519bbbaed31a77a2f902f355fef"
+    },
+    {
+      "task_set_id": "train_n10_u80_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n10_u80_constrained_synchronous_r0.json",
+      "workload_sha256": "2c2be76c29d9701b4ead2391b91530241bda7d53e1a3b6f98785c56ec51972f6"
+    },
+    {
+      "task_set_id": "train_n10_u80_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n10_u80_constrained_synchronous_r1.json",
+      "workload_sha256": "7130745053ad8654e52be1e991752d1ed7a34a3d7382b8af3dfafd5086bd2e9d"
+    },
+    {
+      "task_set_id": "train_n10_u80_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n10_u80_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "dc530baa157d05099a02021826ed1018862b9eea7d646fadc2aa74e4855bee7e"
+    },
+    {
+      "task_set_id": "train_n10_u80_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n10_u80_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "29592151f12a68e6b5312293c7b17d3862aeaced6f67f3f75a8794186ad163b5"
+    },
+    {
+      "task_set_id": "train_n10_u80_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n10_u80_constrained_jitter_r0.json",
+      "workload_sha256": "520e7458cd839198adda9be3b8366f6cb1665bbccd6ec0a610b9c4c2a074dcad"
+    },
+    {
+      "task_set_id": "train_n10_u80_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n10_u80_constrained_jitter_r1.json",
+      "workload_sha256": "23139db34c719f014f7b8022a99683d974fcadc32c16d5f49bb1afd266d0b6e5"
+    },
+    {
+      "task_set_id": "train_n10_u80_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n10_u80_constrained_bursts_r0.json",
+      "workload_sha256": "006ab4c24ea88ad455c2937daee10d081776c8453fbb21faeff2791a059e8b8f"
+    },
+    {
+      "task_set_id": "train_n10_u80_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n10_u80_constrained_bursts_r1.json",
+      "workload_sha256": "7ed7749eabdd1cfb10184e6d3964b83e9f05d51463e7b1c7d7e48224db37a9c5"
+    },
+    {
+      "task_set_id": "train_n10_u95_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n10_u95_implicit_synchronous_r0.json",
+      "workload_sha256": "e9a66203554d7bf7e47930d1981762853915d575fb9190d718db8d437a0aa2b7"
+    },
+    {
+      "task_set_id": "train_n10_u95_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n10_u95_implicit_synchronous_r1.json",
+      "workload_sha256": "60b85855127f564f4ae807b95306840e995cbf2cf2df491ef37d17a3fac80245"
+    },
+    {
+      "task_set_id": "train_n10_u95_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n10_u95_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "a63bcf60f8d21e8434d111b756b19bbd2398110120444ffbdf9467bec746db63"
+    },
+    {
+      "task_set_id": "train_n10_u95_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n10_u95_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "e4ce898de7bcd6a0e8cf22e7fd672c9915b54fd5eb86cacf7d52256d722a5b91"
+    },
+    {
+      "task_set_id": "train_n10_u95_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n10_u95_implicit_jitter_r0.json",
+      "workload_sha256": "fe6874b720e4edc5a236042194039536ccb467005520ef32ce891ab49ef8cb07"
+    },
+    {
+      "task_set_id": "train_n10_u95_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n10_u95_implicit_jitter_r1.json",
+      "workload_sha256": "2a7c8b7796f91df06f3f9c6a346ed0c4bb7c5d54e2b6451657a4ddbdaf2ef624"
+    },
+    {
+      "task_set_id": "train_n10_u95_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n10_u95_implicit_bursts_r0.json",
+      "workload_sha256": "75b492e2a1f5e21b6867ab88e7683491696334fe5872a471c4115d49827650b8"
+    },
+    {
+      "task_set_id": "train_n10_u95_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n10_u95_implicit_bursts_r1.json",
+      "workload_sha256": "d57ce54622b57f23b61145816e47ac67ac46d7a432badfac74f0f3085c7f1fa1"
+    },
+    {
+      "task_set_id": "train_n10_u95_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n10_u95_constrained_synchronous_r0.json",
+      "workload_sha256": "9d973f8da1f0659817d4120d65be12c3951c829cb608ed2b7b76db5f185b598d"
+    },
+    {
+      "task_set_id": "train_n10_u95_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n10_u95_constrained_synchronous_r1.json",
+      "workload_sha256": "f1959bb0ddcf2c5211b7abb1f5f3b93e585d5bcd995822f9df1678a81ff1b71b"
+    },
+    {
+      "task_set_id": "train_n10_u95_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n10_u95_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "b8ce189b1945432ccb97c2e54ac9998fa85f3d6fba4c5c93c67178a726d4a306"
+    },
+    {
+      "task_set_id": "train_n10_u95_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n10_u95_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "622107937288db1602e8ba750ffe390f8ed0520a6eb311da323a37ef8dc7dbb9"
+    },
+    {
+      "task_set_id": "train_n10_u95_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n10_u95_constrained_jitter_r0.json",
+      "workload_sha256": "10f420c4737a4d7d423a640377931c08139ba40056a98fe2ccd5ba8cd0d9344f"
+    },
+    {
+      "task_set_id": "train_n10_u95_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n10_u95_constrained_jitter_r1.json",
+      "workload_sha256": "9c346b507f3032f5cf28609846cde81479b4de5553e9a19b4799f8a3c079f4e5"
+    },
+    {
+      "task_set_id": "train_n10_u95_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n10_u95_constrained_bursts_r0.json",
+      "workload_sha256": "3f49e8debf035a7f2ffba69cd61a19c3b5d4b596505c2349ac7fa4c186147dba"
+    },
+    {
+      "task_set_id": "train_n10_u95_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n10_u95_constrained_bursts_r1.json",
+      "workload_sha256": "1b6fc094f6efbb73bfaf6b6626348ca97aecd729066c80f4d309dcd8e9f27f74"
+    },
+    {
+      "task_set_id": "train_n10_u110_implicit_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n10_u110_implicit_synchronous_r0.json",
+      "workload_sha256": "fba040c459d85519a735305314c3db3ab96730967f1a8f34cf436837461d73f2"
+    },
+    {
+      "task_set_id": "train_n10_u110_implicit_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n10_u110_implicit_synchronous_r1.json",
+      "workload_sha256": "62c36c3c50cd590adb9b1d7360b7c8f9293eb9ed6c6f97f507d58bbda984575c"
+    },
+    {
+      "task_set_id": "train_n10_u110_implicit_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n10_u110_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "d846e4633d309ecf39e399269695bf33c694c9f681ec937f809b3e6bf550c2dc"
+    },
+    {
+      "task_set_id": "train_n10_u110_implicit_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n10_u110_implicit_fixed_offsets_r1.json",
+      "workload_sha256": "767b8aa2809c40673c154ce8fa42236f37aec5fed38cc341e8d751721c610ed8"
+    },
+    {
+      "task_set_id": "train_n10_u110_implicit_jitter_r0",
+      "split": "train",
+      "path": "train/train_n10_u110_implicit_jitter_r0.json",
+      "workload_sha256": "12fd129289a530203bd6574510173c1274b38dc7442e409fe3f885f3f097b37b"
+    },
+    {
+      "task_set_id": "train_n10_u110_implicit_jitter_r1",
+      "split": "train",
+      "path": "train/train_n10_u110_implicit_jitter_r1.json",
+      "workload_sha256": "de4d8484074b3d9e0db23485859a45f8d596f81d5f14551dbb6f3a50ef0b6eb9"
+    },
+    {
+      "task_set_id": "train_n10_u110_implicit_bursts_r0",
+      "split": "train",
+      "path": "train/train_n10_u110_implicit_bursts_r0.json",
+      "workload_sha256": "51aac8126bc3679eb2c4278b85009b06bdb647155a8f1180bf60429cf754a823"
+    },
+    {
+      "task_set_id": "train_n10_u110_implicit_bursts_r1",
+      "split": "train",
+      "path": "train/train_n10_u110_implicit_bursts_r1.json",
+      "workload_sha256": "a700e26367153af0acc83ebc92cee2b7612e7bed61a1ea687591558a44da966d"
+    },
+    {
+      "task_set_id": "train_n10_u110_constrained_synchronous_r0",
+      "split": "train",
+      "path": "train/train_n10_u110_constrained_synchronous_r0.json",
+      "workload_sha256": "949831ff67db8cd18f627342e79c6c99c1b32e0a83fc9e9087b51f52200bab6d"
+    },
+    {
+      "task_set_id": "train_n10_u110_constrained_synchronous_r1",
+      "split": "train",
+      "path": "train/train_n10_u110_constrained_synchronous_r1.json",
+      "workload_sha256": "af56d33a714f2e730b46eebe27dd811499dc97a775c1c4881c1c558c9d7c3285"
+    },
+    {
+      "task_set_id": "train_n10_u110_constrained_fixed_offsets_r0",
+      "split": "train",
+      "path": "train/train_n10_u110_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "de5c1551749808707d0ca415dc0cf8acf09679266d4c9ce3e29aa1809e72bff5"
+    },
+    {
+      "task_set_id": "train_n10_u110_constrained_fixed_offsets_r1",
+      "split": "train",
+      "path": "train/train_n10_u110_constrained_fixed_offsets_r1.json",
+      "workload_sha256": "6c0ec099ae793890fbe1a196f5f15b2441ea1f51cf15973fcf3e521cedd4679b"
+    },
+    {
+      "task_set_id": "train_n10_u110_constrained_jitter_r0",
+      "split": "train",
+      "path": "train/train_n10_u110_constrained_jitter_r0.json",
+      "workload_sha256": "5376ccbacf745029030713cbbf0957a752b5da540d3cf0de45d10407546cac34"
+    },
+    {
+      "task_set_id": "train_n10_u110_constrained_jitter_r1",
+      "split": "train",
+      "path": "train/train_n10_u110_constrained_jitter_r1.json",
+      "workload_sha256": "84cbf386c8e1a46411d6d2609755129ad5d9bfd33650b936e73efd14009df3d9"
+    },
+    {
+      "task_set_id": "train_n10_u110_constrained_bursts_r0",
+      "split": "train",
+      "path": "train/train_n10_u110_constrained_bursts_r0.json",
+      "workload_sha256": "dc325d2ecfac76fc9b3f8cbf60ff6c80a0f19a14cc40271ec8e14acd432ca992"
+    },
+    {
+      "task_set_id": "train_n10_u110_constrained_bursts_r1",
+      "split": "train",
+      "path": "train/train_n10_u110_constrained_bursts_r1.json",
+      "workload_sha256": "66e360b57e4e0594badfa199970ca502efa2c8a26f74e1a594671bbc29298ffb"
+    },
+    {
+      "task_set_id": "validation_n3_u40_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u40_implicit_synchronous_r0.json",
+      "workload_sha256": "8c15c8c2c08d9b3513dc3e7a85bfc16b8087b2ffcc6adfcbe9fe70ed254a18d3"
+    },
+    {
+      "task_set_id": "validation_n3_u40_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u40_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "005d152dc2d019f8200c785dc03412fdb84cdfeef1fb11aee031422dd79e308b"
+    },
+    {
+      "task_set_id": "validation_n3_u40_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u40_implicit_jitter_r0.json",
+      "workload_sha256": "061bb33337f0e077f6168211954af440afbab77fbf8ba3615f74496fb97c1b8b"
+    },
+    {
+      "task_set_id": "validation_n3_u40_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u40_implicit_bursts_r0.json",
+      "workload_sha256": "1542a706d5cc49d130547d4ca5bd65d5f7aee5183adf5005f88b8bba00688187"
+    },
+    {
+      "task_set_id": "validation_n3_u40_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u40_constrained_synchronous_r0.json",
+      "workload_sha256": "87a56527ffba1a86719dc49bb157f2f2ef752c754ba3504a814820e8c5900353"
+    },
+    {
+      "task_set_id": "validation_n3_u40_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u40_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "46508ec1d1a6a5b0f5f74efeb50cccc17460f18c82b12774fc8d793ece4d07c3"
+    },
+    {
+      "task_set_id": "validation_n3_u40_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u40_constrained_jitter_r0.json",
+      "workload_sha256": "f33628ed7bef5dd521a36070669c5a11391a3d3326d0895e99534ceacea05354"
+    },
+    {
+      "task_set_id": "validation_n3_u40_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u40_constrained_bursts_r0.json",
+      "workload_sha256": "c5d03374900337aafc773cfbcc94a7ac482793173a5afb69af90c0cfe1c70bbe"
+    },
+    {
+      "task_set_id": "validation_n3_u60_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u60_implicit_synchronous_r0.json",
+      "workload_sha256": "7297da9bea4456a42c4a7e559a8ba3e96563e325b7c2ebb5a9a47fdd9e2a1bbf"
+    },
+    {
+      "task_set_id": "validation_n3_u60_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u60_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "e9f305378cd9079eba3abd01bfe3b0f39e9597c76e8175dfdd2a3b645384061f"
+    },
+    {
+      "task_set_id": "validation_n3_u60_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u60_implicit_jitter_r0.json",
+      "workload_sha256": "188b7f24792544102c7fa027c82a002eee4fe3ee2a9bc096405d86cac0556ae9"
+    },
+    {
+      "task_set_id": "validation_n3_u60_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u60_implicit_bursts_r0.json",
+      "workload_sha256": "f2ec3408aace9e83fe0c8012828733b39142cbcc193ad2d66b2b487812696150"
+    },
+    {
+      "task_set_id": "validation_n3_u60_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u60_constrained_synchronous_r0.json",
+      "workload_sha256": "0b0be114f517116a82ce48fe065c164383cb81156b7d60506f2e61661879f862"
+    },
+    {
+      "task_set_id": "validation_n3_u60_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u60_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "e19df45a77e0e8280a1223a12d249d25b35623500c22456b0dc2b8ee9e9fac31"
+    },
+    {
+      "task_set_id": "validation_n3_u60_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u60_constrained_jitter_r0.json",
+      "workload_sha256": "e928b20dd585885a54b11aa8c373a56bc2b80683d2376ff56ace503503c107f1"
+    },
+    {
+      "task_set_id": "validation_n3_u60_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u60_constrained_bursts_r0.json",
+      "workload_sha256": "6bfc23fa8f14423e9ef1019adf28becad4cf2b59fc5b69aa4f7fc6c95bc5ca1e"
+    },
+    {
+      "task_set_id": "validation_n3_u80_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u80_implicit_synchronous_r0.json",
+      "workload_sha256": "1d85b00f68adff21bcfded91bae2653a6e2326eebd6900287be1b9efb4945341"
+    },
+    {
+      "task_set_id": "validation_n3_u80_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u80_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "6bfc42ac4e1e275edac1c21c96f92ee0b22f264bff987a05c18eaa50f2c76f99"
+    },
+    {
+      "task_set_id": "validation_n3_u80_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u80_implicit_jitter_r0.json",
+      "workload_sha256": "8457cd4291f05efa3be25a134c5d716c65a1af7af9a8d1cbe7f9994bbe1b1fef"
+    },
+    {
+      "task_set_id": "validation_n3_u80_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u80_implicit_bursts_r0.json",
+      "workload_sha256": "c23cefbe9e9b57452d2b1c193c7565f5737d1e695516157fef69dfb0b6c03c13"
+    },
+    {
+      "task_set_id": "validation_n3_u80_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u80_constrained_synchronous_r0.json",
+      "workload_sha256": "61e43724df5b4ebc41b5a851bfb7c80152b4bb1b1cd29ece0701ef518c44f633"
+    },
+    {
+      "task_set_id": "validation_n3_u80_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u80_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "dc8b4b193932a57b98e4d58681283ee5b00fd6728bc84c0f2d67fd806020f014"
+    },
+    {
+      "task_set_id": "validation_n3_u80_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u80_constrained_jitter_r0.json",
+      "workload_sha256": "ea351887284605717840542a07582734a1410c23f3e1a08aec7630129a861267"
+    },
+    {
+      "task_set_id": "validation_n3_u80_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u80_constrained_bursts_r0.json",
+      "workload_sha256": "5d1c537e0bcd289a2f6b9494602dfec2955c9dfa0a5eedb3b2e500ae724ddfd3"
+    },
+    {
+      "task_set_id": "validation_n3_u95_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u95_implicit_synchronous_r0.json",
+      "workload_sha256": "9950c22266e5811d1453229cc80028776d9b9f1af574ca018416ecdbc4842d2e"
+    },
+    {
+      "task_set_id": "validation_n3_u95_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u95_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "1aaedab1fbe8fbfbd21fd97c1560e648f8951b0ca46d01733ef8bfb6887d68cc"
+    },
+    {
+      "task_set_id": "validation_n3_u95_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u95_implicit_jitter_r0.json",
+      "workload_sha256": "091c2477f4d496792417180e0032c50629f1f1fe40742fd4ea7a693bc1e1ade0"
+    },
+    {
+      "task_set_id": "validation_n3_u95_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u95_implicit_bursts_r0.json",
+      "workload_sha256": "c9a9c4a947c378fce09735d2796cbc5066130a96b25ddfa2963c5e96e6e2cead"
+    },
+    {
+      "task_set_id": "validation_n3_u95_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u95_constrained_synchronous_r0.json",
+      "workload_sha256": "c2d57d07e132f62cb049ee8e8a9a6b8974d34cdfcab2310ca7724e06272bbf18"
+    },
+    {
+      "task_set_id": "validation_n3_u95_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u95_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "4266395dfdb65b989273f44356a12aedecc9fbf7f8f428b9aa355bf286d72c8e"
+    },
+    {
+      "task_set_id": "validation_n3_u95_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u95_constrained_jitter_r0.json",
+      "workload_sha256": "6cf8a98497ee11f813348f2c9bcac8a9830b564b0016e3681597dbdce7dc1085"
+    },
+    {
+      "task_set_id": "validation_n3_u95_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u95_constrained_bursts_r0.json",
+      "workload_sha256": "f560c571ecafe553cd580714c36493e08f01a6206de65d2dc0dfc7056b5d9987"
+    },
+    {
+      "task_set_id": "validation_n3_u110_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u110_implicit_synchronous_r0.json",
+      "workload_sha256": "f399e5eed95eecc38d3686f74d48f93ef9d43a33f5a2c8e3d17b0f0a7dd47b52"
+    },
+    {
+      "task_set_id": "validation_n3_u110_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u110_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "7ab9b2e1527c32581d656109c36afff00483bda23476677a6ee4e6524b78b2a2"
+    },
+    {
+      "task_set_id": "validation_n3_u110_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u110_implicit_jitter_r0.json",
+      "workload_sha256": "c3c87d6366cfa58cfec921b2e258f6d2a50c8d13892486f4d113e700101664be"
+    },
+    {
+      "task_set_id": "validation_n3_u110_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u110_implicit_bursts_r0.json",
+      "workload_sha256": "fbae63a739399835c5da006a586a56e4a8f6d51347a2e216837cdedec45aa06a"
+    },
+    {
+      "task_set_id": "validation_n3_u110_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u110_constrained_synchronous_r0.json",
+      "workload_sha256": "8482fd3a773968c3f35307618473dcd5b06ac4002748907d88047e260103e685"
+    },
+    {
+      "task_set_id": "validation_n3_u110_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u110_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "f0f37991603bdeca87807bd6c5340cc096aeb2a7c8b65a947b65173cbb4c7d97"
+    },
+    {
+      "task_set_id": "validation_n3_u110_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u110_constrained_jitter_r0.json",
+      "workload_sha256": "fd6f8c416d4dc7128aebf70be4221657851e1184131827ba2b448b06808daa98"
+    },
+    {
+      "task_set_id": "validation_n3_u110_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n3_u110_constrained_bursts_r0.json",
+      "workload_sha256": "97675fd6484ad9246666c529d6e99e1487713a5c55e56f3d69d4bed05955d5b2"
+    },
+    {
+      "task_set_id": "validation_n5_u40_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u40_implicit_synchronous_r0.json",
+      "workload_sha256": "b4d3cb5ccf58e32281d6d9531204e719c074de5f98d555ffbef0dd86942d554f"
+    },
+    {
+      "task_set_id": "validation_n5_u40_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u40_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "edc19445de18bc3a62be36d4b3816744b31737afd65f06c204cc0feedb35cc47"
+    },
+    {
+      "task_set_id": "validation_n5_u40_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u40_implicit_jitter_r0.json",
+      "workload_sha256": "741bcaa28018fb3e91c1cca73283f7ddf5e042b60f729de784b3c3d8cd7c988d"
+    },
+    {
+      "task_set_id": "validation_n5_u40_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u40_implicit_bursts_r0.json",
+      "workload_sha256": "0a0eb787032b54e2377d752959925da7ffbb2302144dd700ce4ed689e21009d2"
+    },
+    {
+      "task_set_id": "validation_n5_u40_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u40_constrained_synchronous_r0.json",
+      "workload_sha256": "20a8433ee1a4270b1b69598163d2c20837c421cb8cbfe0e22c489c235aa6b74f"
+    },
+    {
+      "task_set_id": "validation_n5_u40_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u40_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "65e147ee91b802e438f18b9a274a9ea73d93f3e433229ad91b71c2247fc6dc0a"
+    },
+    {
+      "task_set_id": "validation_n5_u40_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u40_constrained_jitter_r0.json",
+      "workload_sha256": "9cdbda3f62fb7e318982c7db734aa803f453f9a805aa1b9b33a6a07c19f2e7b9"
+    },
+    {
+      "task_set_id": "validation_n5_u40_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u40_constrained_bursts_r0.json",
+      "workload_sha256": "7c04b0df18bf66f8f5dc6043a311c7ca600469ccff223c23f71e04da2dbeeeb6"
+    },
+    {
+      "task_set_id": "validation_n5_u60_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u60_implicit_synchronous_r0.json",
+      "workload_sha256": "5ba5ef642f9aea2fd4ce3aa6b2768186994cd425c17a2cd56b76fcab41c437b3"
+    },
+    {
+      "task_set_id": "validation_n5_u60_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u60_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "5fc18069f6a1c4d3b77b969f0552d60b78fa788d07d4cc90ef20da51eb0307af"
+    },
+    {
+      "task_set_id": "validation_n5_u60_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u60_implicit_jitter_r0.json",
+      "workload_sha256": "2959df875d24d880158f94589fdab4e4a471dc3c44650e4d554ccd414d45f0b0"
+    },
+    {
+      "task_set_id": "validation_n5_u60_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u60_implicit_bursts_r0.json",
+      "workload_sha256": "370db4fdcc7524fdd2fbf0c3a29942b482b762932776a85fd313ced9e38a3f1d"
+    },
+    {
+      "task_set_id": "validation_n5_u60_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u60_constrained_synchronous_r0.json",
+      "workload_sha256": "e35eb7f7995c5b35319d1d0f1c7f4fe6f40d9c20637cce4552afa845392feedc"
+    },
+    {
+      "task_set_id": "validation_n5_u60_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u60_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "6708bc7e4784f5ca619be503edc37bd6465f4d5fbe764b82b06479c5e630b49b"
+    },
+    {
+      "task_set_id": "validation_n5_u60_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u60_constrained_jitter_r0.json",
+      "workload_sha256": "38ce594a49cea8b174ed4444652389c11e9ccb544cabb3a61e1adb1f7177798f"
+    },
+    {
+      "task_set_id": "validation_n5_u60_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u60_constrained_bursts_r0.json",
+      "workload_sha256": "d0da6a2386cea2a920c288f4f2fe91d7378d319ef6acb1e8d454fe59abbdb7f8"
+    },
+    {
+      "task_set_id": "validation_n5_u80_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u80_implicit_synchronous_r0.json",
+      "workload_sha256": "113812c8fa549028f5ffbfd758f889d0c0fe9ca32764d592900d689f44ffde60"
+    },
+    {
+      "task_set_id": "validation_n5_u80_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u80_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "a98952288d937f63b478879a40e110b108b42496c7f87162173667b7827c1e69"
+    },
+    {
+      "task_set_id": "validation_n5_u80_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u80_implicit_jitter_r0.json",
+      "workload_sha256": "eeca85307c2502512ec504e4ec44357ad4a1a86c7ac05a53db5d9763495812c4"
+    },
+    {
+      "task_set_id": "validation_n5_u80_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u80_implicit_bursts_r0.json",
+      "workload_sha256": "6af732b803f9a924b131de703edec7730fe6ec569a8f2a28032b8e26a211c4ab"
+    },
+    {
+      "task_set_id": "validation_n5_u80_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u80_constrained_synchronous_r0.json",
+      "workload_sha256": "2cb54c63d79e449db044945720b5dbe76bcf401c06aaa2630c03f1d360f7bdf9"
+    },
+    {
+      "task_set_id": "validation_n5_u80_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u80_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "0b1a9beff692edba561a670b3af3d5c7aec929ffe95693a2cc5119ab062d5bda"
+    },
+    {
+      "task_set_id": "validation_n5_u80_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u80_constrained_jitter_r0.json",
+      "workload_sha256": "8fad0b3434cfe7c2be484f9450127738e113186c8f36d6b758d1c90c829f850b"
+    },
+    {
+      "task_set_id": "validation_n5_u80_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u80_constrained_bursts_r0.json",
+      "workload_sha256": "807ded97ac3d22d2738d226064d24f7fb85c5092422568eed2edd6554f1ea56f"
+    },
+    {
+      "task_set_id": "validation_n5_u95_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u95_implicit_synchronous_r0.json",
+      "workload_sha256": "1dced56861d69ff3348185f662cc0e12a114fe642689c5ce9901b3e9ec34d15f"
+    },
+    {
+      "task_set_id": "validation_n5_u95_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u95_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "a8c1f5d637ad8b4a81135f7f58627beee408e3389f79f1edff804e9fb1bfed3b"
+    },
+    {
+      "task_set_id": "validation_n5_u95_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u95_implicit_jitter_r0.json",
+      "workload_sha256": "6f5c7e62cbd1ce4aa0cf512634ee68c54b85ddcf8421159ba5b8dfac00943f86"
+    },
+    {
+      "task_set_id": "validation_n5_u95_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u95_implicit_bursts_r0.json",
+      "workload_sha256": "4f61fa40318a708136ef12ba6c51519ef4730fadbe707d8f139707e0876547ea"
+    },
+    {
+      "task_set_id": "validation_n5_u95_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u95_constrained_synchronous_r0.json",
+      "workload_sha256": "46056fc8c579d431f00088e897d4a38d59c867dab7d1a27123e2df656fbbce79"
+    },
+    {
+      "task_set_id": "validation_n5_u95_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u95_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "5c84f7ff33598e3758a9fc4e1d7937cd214e9e689698796890b01b1050d39a38"
+    },
+    {
+      "task_set_id": "validation_n5_u95_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u95_constrained_jitter_r0.json",
+      "workload_sha256": "f7854ee61f6b851ca87d192bbef6b7a76f3fbf90a93c987b192b8e016e52f025"
+    },
+    {
+      "task_set_id": "validation_n5_u95_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u95_constrained_bursts_r0.json",
+      "workload_sha256": "e261e5a0fbd6edf3a74b9e4fdbb97a36ca33df38510e22ff3fae3207006489e6"
+    },
+    {
+      "task_set_id": "validation_n5_u110_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u110_implicit_synchronous_r0.json",
+      "workload_sha256": "a2c9997968ccf503b649b1ea9468a7917b6610b7414979ccabbdde28c352157d"
+    },
+    {
+      "task_set_id": "validation_n5_u110_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u110_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "1af8626f9b7c8345ca19e31254a265d740311f2e6f9965245312edf5d588342d"
+    },
+    {
+      "task_set_id": "validation_n5_u110_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u110_implicit_jitter_r0.json",
+      "workload_sha256": "55f557f2e9297a692a14584280a6b556302cf0f6caf732a85c372aa776f03b19"
+    },
+    {
+      "task_set_id": "validation_n5_u110_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u110_implicit_bursts_r0.json",
+      "workload_sha256": "48ebf62830610c746eb86652cb214068bdd87b7d9bf5bc04b8142434ee6cfcbd"
+    },
+    {
+      "task_set_id": "validation_n5_u110_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u110_constrained_synchronous_r0.json",
+      "workload_sha256": "7d5edef44194e368e29e7de96a57fcb0545f3a13c56bf75899888b9b06e65292"
+    },
+    {
+      "task_set_id": "validation_n5_u110_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u110_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "10c9227b13c9f5da37859af43bca531144a88fc27da01ee737dc3a80264fd644"
+    },
+    {
+      "task_set_id": "validation_n5_u110_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u110_constrained_jitter_r0.json",
+      "workload_sha256": "cc6aadaba9655a4c83bed01a41ee7076d6976c771a5cbb77cc7ccf8849cc3b1f"
+    },
+    {
+      "task_set_id": "validation_n5_u110_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n5_u110_constrained_bursts_r0.json",
+      "workload_sha256": "d2f7df0d2515f94ff67f28c72a90d043e172918e84d96c0a85ae123a4a58a8db"
+    },
+    {
+      "task_set_id": "validation_n8_u40_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u40_implicit_synchronous_r0.json",
+      "workload_sha256": "2e2e288e0063adc7b4127d758ecb8ee09c59781aef1d4e4e5b5fec1c78e4c6d8"
+    },
+    {
+      "task_set_id": "validation_n8_u40_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u40_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "4b35858a004022bea0209de3e7ad7458b5c1d41b3cadd0c3586a429b45dbe839"
+    },
+    {
+      "task_set_id": "validation_n8_u40_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u40_implicit_jitter_r0.json",
+      "workload_sha256": "54dd3cc0502f2818fe4e55ecd234317c1d68bb967c5eac8bcb0503c1d2908b3f"
+    },
+    {
+      "task_set_id": "validation_n8_u40_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u40_implicit_bursts_r0.json",
+      "workload_sha256": "428e5e8eb4662612219a18d31c32bd5686aa8ad31e8edd96c7369f98617e1f3e"
+    },
+    {
+      "task_set_id": "validation_n8_u40_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u40_constrained_synchronous_r0.json",
+      "workload_sha256": "e35f86cef674a8fd9345cc9d09b67d07d68291888e2ad3695843d91e1a85cd07"
+    },
+    {
+      "task_set_id": "validation_n8_u40_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u40_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "55cb9def9455f4eeb9e3c7e1afcd591e75e28022cc294d9b4950085a69cc7aee"
+    },
+    {
+      "task_set_id": "validation_n8_u40_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u40_constrained_jitter_r0.json",
+      "workload_sha256": "e9ba42a68e342e7d66e0fe49c3c92d27209b2a1bf6debf1d3f6cd2a83d471e0b"
+    },
+    {
+      "task_set_id": "validation_n8_u40_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u40_constrained_bursts_r0.json",
+      "workload_sha256": "a6cde757a91b29919ab43b972689414f58a3312cd3e7376c0f72e7ffe6a02551"
+    },
+    {
+      "task_set_id": "validation_n8_u60_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u60_implicit_synchronous_r0.json",
+      "workload_sha256": "91cd186a7ed52373b92361376c7a3f0d8cc2a238edeca15a50b77491af215207"
+    },
+    {
+      "task_set_id": "validation_n8_u60_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u60_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "bcd2362a621a3818a5eb4e9c685fd4582682c753da46417b4bc44a0964cdf9a4"
+    },
+    {
+      "task_set_id": "validation_n8_u60_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u60_implicit_jitter_r0.json",
+      "workload_sha256": "aec8bc69a7286924c89d12c0f70494471fc9a73f21df24d59dad82a41273c813"
+    },
+    {
+      "task_set_id": "validation_n8_u60_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u60_implicit_bursts_r0.json",
+      "workload_sha256": "1b5f7a099ea2ce753cbfc5d0d9f6d09da62ca0dc943694d6fdc6a90f85458162"
+    },
+    {
+      "task_set_id": "validation_n8_u60_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u60_constrained_synchronous_r0.json",
+      "workload_sha256": "a3595ac96b494f31702c463faaf325f71e7220ad37aab724447c4629b4d87063"
+    },
+    {
+      "task_set_id": "validation_n8_u60_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u60_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "e61fae13243db1447f72991b5da11b15be5bc61d7fd34f4097684d7bbdd876cd"
+    },
+    {
+      "task_set_id": "validation_n8_u60_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u60_constrained_jitter_r0.json",
+      "workload_sha256": "66707674aee93fe955c7bdc6eeef3c411854076e9d1857d1a2f56b47d709fab2"
+    },
+    {
+      "task_set_id": "validation_n8_u60_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u60_constrained_bursts_r0.json",
+      "workload_sha256": "9be7081ea0cb5012ec7e3f5eee9738636aee1dedb91405118e020fc96f333e4f"
+    },
+    {
+      "task_set_id": "validation_n8_u80_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u80_implicit_synchronous_r0.json",
+      "workload_sha256": "3ff74366c90ac9e3f886ce8e82da99d7a4028bb99d2cec3f5f100d10244b6462"
+    },
+    {
+      "task_set_id": "validation_n8_u80_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u80_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "ecf25aab046c887be838ca7307a9a7ad40e471dc553a9e1856fa1acab63d6230"
+    },
+    {
+      "task_set_id": "validation_n8_u80_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u80_implicit_jitter_r0.json",
+      "workload_sha256": "a6e1672bb46ad568d7ea1704d18be9986b332a901ca3fe41e44017ae6b9b8f1f"
+    },
+    {
+      "task_set_id": "validation_n8_u80_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u80_implicit_bursts_r0.json",
+      "workload_sha256": "a46dc9d7a8256f966921413e5d4913c0da2bce3d85796311241660879c4e4c05"
+    },
+    {
+      "task_set_id": "validation_n8_u80_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u80_constrained_synchronous_r0.json",
+      "workload_sha256": "6ddcc8325a8d3b1884a1356fcae9fc3c71a825291ccf1298dcc0b4ac4461a4c0"
+    },
+    {
+      "task_set_id": "validation_n8_u80_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u80_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "c63153ed2bc87981ec6078327adf3e09980f23b1e051e603848a060cb5e3eee5"
+    },
+    {
+      "task_set_id": "validation_n8_u80_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u80_constrained_jitter_r0.json",
+      "workload_sha256": "9bdfc101c25a848fcf14002d0c42d4d1cb787d17b0c4f506b75e9567104d4d1f"
+    },
+    {
+      "task_set_id": "validation_n8_u80_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u80_constrained_bursts_r0.json",
+      "workload_sha256": "9ed96a4287152947e79a44cc86da50869ee72676be92c032f8311f228c271eec"
+    },
+    {
+      "task_set_id": "validation_n8_u95_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u95_implicit_synchronous_r0.json",
+      "workload_sha256": "7dd4d146826beaf49c3b107acc3695119c600eb185469e09b68d1949a16144f7"
+    },
+    {
+      "task_set_id": "validation_n8_u95_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u95_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "6d41e99987275e0d51277caebc26611662067d9a7cb46ed65baa23ffe6be5375"
+    },
+    {
+      "task_set_id": "validation_n8_u95_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u95_implicit_jitter_r0.json",
+      "workload_sha256": "0a399e1cca456987a4c510b5ab25f1c18a3c08a9a9cd8df94be2e6aba36fb38a"
+    },
+    {
+      "task_set_id": "validation_n8_u95_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u95_implicit_bursts_r0.json",
+      "workload_sha256": "7d71ef6e8ee421a68ab5ddcb4f17de4478210e9076e741af2125c70f9153a769"
+    },
+    {
+      "task_set_id": "validation_n8_u95_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u95_constrained_synchronous_r0.json",
+      "workload_sha256": "2570c14834d55023cd6360a2b30b6dd532884bb7b7fffed11813901d2c8bb723"
+    },
+    {
+      "task_set_id": "validation_n8_u95_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u95_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "99a1d61c0ddfece346d0f4f2dd7544776467f2906f030e548561503913d11d5a"
+    },
+    {
+      "task_set_id": "validation_n8_u95_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u95_constrained_jitter_r0.json",
+      "workload_sha256": "e74e9bd0e945fff0160524f30fab6eb7e82b2b69fbd6e8f2dc10fc98000df7b1"
+    },
+    {
+      "task_set_id": "validation_n8_u95_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u95_constrained_bursts_r0.json",
+      "workload_sha256": "f3c2505b34a358846af595d74c42adce739173da8ed0277fd0704bcd5aadddc2"
+    },
+    {
+      "task_set_id": "validation_n8_u110_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u110_implicit_synchronous_r0.json",
+      "workload_sha256": "12880250191c34590f30f284af733cadba3ab2e25d447265b35c027f512352a2"
+    },
+    {
+      "task_set_id": "validation_n8_u110_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u110_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "3b1b0753cd0def1bab5d143b90af11cec734bf839465ad41cb6fa4bf363bd664"
+    },
+    {
+      "task_set_id": "validation_n8_u110_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u110_implicit_jitter_r0.json",
+      "workload_sha256": "eae1bc5196a4fda4875e1cbc77ef30a07ad48437aad1d81664f1d251123ac6c4"
+    },
+    {
+      "task_set_id": "validation_n8_u110_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u110_implicit_bursts_r0.json",
+      "workload_sha256": "a725e979413a09b4f4a891b65ab7c416530f6542a82375286cdff1bf5e706543"
+    },
+    {
+      "task_set_id": "validation_n8_u110_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u110_constrained_synchronous_r0.json",
+      "workload_sha256": "3a101cd79cc926b785f1e36339545c7742fe9da69c7bb1d4c403a8ccebff4ce6"
+    },
+    {
+      "task_set_id": "validation_n8_u110_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u110_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "371c7a6664a483cb856574523c35ddb2c72e25ba590dcc482bb3c9e8edac2234"
+    },
+    {
+      "task_set_id": "validation_n8_u110_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u110_constrained_jitter_r0.json",
+      "workload_sha256": "d82f2a1eec949c39266c665df15c42881621bb8a50a6523825f7f8dfd95259a9"
+    },
+    {
+      "task_set_id": "validation_n8_u110_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n8_u110_constrained_bursts_r0.json",
+      "workload_sha256": "07c40c1792f88cf8b52a7210425ee219110093cee5d60f6262f73f8a24b59a16"
+    },
+    {
+      "task_set_id": "validation_n10_u40_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u40_implicit_synchronous_r0.json",
+      "workload_sha256": "98d6ce8a479acef55ce62e5a71349f84ea7f32c2a30fb31b67859c419a6100cf"
+    },
+    {
+      "task_set_id": "validation_n10_u40_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u40_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "05235888f45ec327b64fdc726ea53a1e5dc8944a0ae19cf34edcf2229b8dfb91"
+    },
+    {
+      "task_set_id": "validation_n10_u40_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u40_implicit_jitter_r0.json",
+      "workload_sha256": "65e6f2704072bff78c231eeb69d14882ec6ec7c3f95458103801452b3fafe5d6"
+    },
+    {
+      "task_set_id": "validation_n10_u40_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u40_implicit_bursts_r0.json",
+      "workload_sha256": "094f695ffc8539ae281a910bcea8d9422ee064c191be853f2bc43a645139e339"
+    },
+    {
+      "task_set_id": "validation_n10_u40_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u40_constrained_synchronous_r0.json",
+      "workload_sha256": "4910b24349d4eaf1e5b6ff96abdac50fa891707e0034aa28aeeebd832b86dea5"
+    },
+    {
+      "task_set_id": "validation_n10_u40_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u40_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "3e2a79b665247c69674c9f657c40b540c400003933a601991e5308b1108e9220"
+    },
+    {
+      "task_set_id": "validation_n10_u40_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u40_constrained_jitter_r0.json",
+      "workload_sha256": "d705c53215cd6ced51cbfef758e28df45503bc4aa2e29fa32601a45fa7468f0d"
+    },
+    {
+      "task_set_id": "validation_n10_u40_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u40_constrained_bursts_r0.json",
+      "workload_sha256": "4c2861f6c05638a18837898b5887a23fb8ac3c6fd87c1d482bc74923a8a944e5"
+    },
+    {
+      "task_set_id": "validation_n10_u60_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u60_implicit_synchronous_r0.json",
+      "workload_sha256": "3abdd6b5689dfd965f6565572120cf8d09164c22fc9950cd781b966fad3ed715"
+    },
+    {
+      "task_set_id": "validation_n10_u60_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u60_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "394515b3d5cf32bc6f1da5dd11deb3b28c9eeae9b015fa18274b991f56adc1bb"
+    },
+    {
+      "task_set_id": "validation_n10_u60_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u60_implicit_jitter_r0.json",
+      "workload_sha256": "307d7b99ba76a4612482c25bae1e46d703b730ec6820fdc43646b76163e43f9c"
+    },
+    {
+      "task_set_id": "validation_n10_u60_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u60_implicit_bursts_r0.json",
+      "workload_sha256": "e16e8fe0edb7e764b066622b66491b34bae266d93c2af8c6e299444a9aac0b98"
+    },
+    {
+      "task_set_id": "validation_n10_u60_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u60_constrained_synchronous_r0.json",
+      "workload_sha256": "26df53dbf230bd76a58bd08571905cb8378e4071596c086cba1a499df2d12135"
+    },
+    {
+      "task_set_id": "validation_n10_u60_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u60_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "94404fc5f08402532068b70727824cc10a3035e15aec71b8574dcc61ca619072"
+    },
+    {
+      "task_set_id": "validation_n10_u60_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u60_constrained_jitter_r0.json",
+      "workload_sha256": "b7dc87fd306a685199370d3a682194bb62a34d11b91bda6eaa3d6e12b2816acc"
+    },
+    {
+      "task_set_id": "validation_n10_u60_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u60_constrained_bursts_r0.json",
+      "workload_sha256": "787f5bcb0542af5ef0b1e97556006a6d88d5d3cef4dafb47138fa2eb961f5da2"
+    },
+    {
+      "task_set_id": "validation_n10_u80_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u80_implicit_synchronous_r0.json",
+      "workload_sha256": "21927e0bd7c0b59432a6d60eaf5f1b9a51b25e9a9942dadb513e8c4e88c602b2"
+    },
+    {
+      "task_set_id": "validation_n10_u80_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u80_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "5438a1849308207303edc22f519495abd03d62d5fcc89046036e30b92d6eda08"
+    },
+    {
+      "task_set_id": "validation_n10_u80_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u80_implicit_jitter_r0.json",
+      "workload_sha256": "2209092790e6f1b6f330ab5caf63b16cd11f868a34d84ad0a3699d2e900d2215"
+    },
+    {
+      "task_set_id": "validation_n10_u80_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u80_implicit_bursts_r0.json",
+      "workload_sha256": "eacab4dd9160f6d16c813e8049fff7969d8e10b4a08818dbbd5f2d794e2d5a73"
+    },
+    {
+      "task_set_id": "validation_n10_u80_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u80_constrained_synchronous_r0.json",
+      "workload_sha256": "5875da3b050017b45ae335a65cc9549186bb6c2e040058c570f2cb90e974c20c"
+    },
+    {
+      "task_set_id": "validation_n10_u80_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u80_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "e4044c0c4e8157924ecf74e861ae4334f63f9ab57da732242535389d06e8e1b1"
+    },
+    {
+      "task_set_id": "validation_n10_u80_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u80_constrained_jitter_r0.json",
+      "workload_sha256": "60029be5093083dffdf677ae7e4d7d195fef858721f614211030726c1a37ba58"
+    },
+    {
+      "task_set_id": "validation_n10_u80_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u80_constrained_bursts_r0.json",
+      "workload_sha256": "542f42b8ca5dddf23d9960570eda75708c8d0547a5ebd0a7141bd0e7dd6a4f4f"
+    },
+    {
+      "task_set_id": "validation_n10_u95_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u95_implicit_synchronous_r0.json",
+      "workload_sha256": "f53d49040fd16c9bea6ccbb7c99e954166e8afae5654b8b808998c8e29363f1b"
+    },
+    {
+      "task_set_id": "validation_n10_u95_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u95_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "5857cb4d21505f479e09dd542e10e1fc54845faea4025c4600f9a51467d2cb2c"
+    },
+    {
+      "task_set_id": "validation_n10_u95_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u95_implicit_jitter_r0.json",
+      "workload_sha256": "10666c0279f07cffbbf268432141cfe0c5cb6a4a38be7cec5ccbcd209298ae27"
+    },
+    {
+      "task_set_id": "validation_n10_u95_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u95_implicit_bursts_r0.json",
+      "workload_sha256": "1d33437ac4bc0315331a24ef43d1f1add34e3759a58e46239d8f447a68757fc2"
+    },
+    {
+      "task_set_id": "validation_n10_u95_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u95_constrained_synchronous_r0.json",
+      "workload_sha256": "87439b5d66182ed2c64914aa60b2cf856702512179fc0a836498bd99fb0623c5"
+    },
+    {
+      "task_set_id": "validation_n10_u95_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u95_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "97557526322e3375092a630f4439cd2bc4877d314aed357922c78542365f3dfe"
+    },
+    {
+      "task_set_id": "validation_n10_u95_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u95_constrained_jitter_r0.json",
+      "workload_sha256": "e8abc64e6a70e6c1e3bc50cc5e65f300eca1ad525dbdeb74fed06cb75df78b75"
+    },
+    {
+      "task_set_id": "validation_n10_u95_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u95_constrained_bursts_r0.json",
+      "workload_sha256": "51984336913316e1749e6da77e03818547c6021bf454f24b86baefb7ee85c5d6"
+    },
+    {
+      "task_set_id": "validation_n10_u110_implicit_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u110_implicit_synchronous_r0.json",
+      "workload_sha256": "961105957786f89eff58ca360e4664ee88c8aa6bbe5bfa67ca4af7b32f411660"
+    },
+    {
+      "task_set_id": "validation_n10_u110_implicit_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u110_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "d9d050afedfe6d1ff79f487bc03dfe61be0d83833e08c339f483fd033c82fe79"
+    },
+    {
+      "task_set_id": "validation_n10_u110_implicit_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u110_implicit_jitter_r0.json",
+      "workload_sha256": "65ebb16fb4f3fda6af5ba451f1385e71f37b2288850179ee715b1f8298143d46"
+    },
+    {
+      "task_set_id": "validation_n10_u110_implicit_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u110_implicit_bursts_r0.json",
+      "workload_sha256": "5b2d716b5500f4d5395b15166f11b65be7f8b6f1476814bda3e8d5e618ec5342"
+    },
+    {
+      "task_set_id": "validation_n10_u110_constrained_synchronous_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u110_constrained_synchronous_r0.json",
+      "workload_sha256": "82ff84fb2e49b88717548b641be07b04e786e812990cb92f14f6b9f9338bbaac"
+    },
+    {
+      "task_set_id": "validation_n10_u110_constrained_fixed_offsets_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u110_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "69364cbc6f8e0afa35e4e89ea673e3b98a2081d3f7c260020643df0599d529a1"
+    },
+    {
+      "task_set_id": "validation_n10_u110_constrained_jitter_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u110_constrained_jitter_r0.json",
+      "workload_sha256": "5b5c832167ac65b639d189427b9cc800cbb0466fafd6c80c72db6258998db6fd"
+    },
+    {
+      "task_set_id": "validation_n10_u110_constrained_bursts_r0",
+      "split": "validation",
+      "path": "validation/validation_n10_u110_constrained_bursts_r0.json",
+      "workload_sha256": "237a3a303c8cbf78d39281d30bfb99121a5f0be6da14dd33b99bfac2ba679331"
+    },
+    {
+      "task_set_id": "test_n3_u40_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n3_u40_implicit_synchronous_r0.json",
+      "workload_sha256": "d422b8cf6dc3de6531c7d6151de48facdf46679d21a0b8ebdd1d3ab37838cbc3"
+    },
+    {
+      "task_set_id": "test_n3_u40_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n3_u40_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "b52f2383771bf456490828703fdf091a55ce4fe5c2b408d5604459725297db1c"
+    },
+    {
+      "task_set_id": "test_n3_u40_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n3_u40_implicit_jitter_r0.json",
+      "workload_sha256": "e408d1afe5cc519f1cf075498e759c8cb14603e5d7dbe2d8bf109f700eebc2a2"
+    },
+    {
+      "task_set_id": "test_n3_u40_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n3_u40_implicit_bursts_r0.json",
+      "workload_sha256": "d3d5fc2291e31454b74df2f559bdcfce7c7788cab7a4e811e5733f10e9833661"
+    },
+    {
+      "task_set_id": "test_n3_u40_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n3_u40_constrained_synchronous_r0.json",
+      "workload_sha256": "87f444ba19908506f26ff2de79874ffc8b6f0b543cd43550369107861cac42d9"
+    },
+    {
+      "task_set_id": "test_n3_u40_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n3_u40_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "d28c4ebc33128a2d73d020614d7fe743362e55b8118f818073f0d810e765ffd9"
+    },
+    {
+      "task_set_id": "test_n3_u40_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n3_u40_constrained_jitter_r0.json",
+      "workload_sha256": "2f8ba5c388a480b689d46294be18a3f374cf4f3c150a360eb20f86b65859896d"
+    },
+    {
+      "task_set_id": "test_n3_u40_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n3_u40_constrained_bursts_r0.json",
+      "workload_sha256": "f5d0c2f194003a1a5947f937d357786d2b72b8444162b40503383a8b45def78c"
+    },
+    {
+      "task_set_id": "test_n3_u60_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n3_u60_implicit_synchronous_r0.json",
+      "workload_sha256": "64ae8f9ef6ed2cb9a0c0fd4bb887dffbbea1eddce35dcad511ae4a7043530952"
+    },
+    {
+      "task_set_id": "test_n3_u60_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n3_u60_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "0630a18252f5fa909d92a49ca9dff9c5515009e57b4d864fe05554cf8b4f46c5"
+    },
+    {
+      "task_set_id": "test_n3_u60_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n3_u60_implicit_jitter_r0.json",
+      "workload_sha256": "ed6054e683ec20c74700cb53ee65f34c660f0a29a42809c73a09cc1b4dee5caa"
+    },
+    {
+      "task_set_id": "test_n3_u60_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n3_u60_implicit_bursts_r0.json",
+      "workload_sha256": "01748f1e65591c14129c8248f423ba8c497e94fa64718caef2eacab24f27587a"
+    },
+    {
+      "task_set_id": "test_n3_u60_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n3_u60_constrained_synchronous_r0.json",
+      "workload_sha256": "c0fa883774632bb0d31dd9e8bbeb379153bf4e7f866af4c347f3827fdf6f1c48"
+    },
+    {
+      "task_set_id": "test_n3_u60_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n3_u60_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "32bd55f719cfd8b46b2d54dc3e9c7ece73eb8dd65155b3e2df6b535d9ee28bca"
+    },
+    {
+      "task_set_id": "test_n3_u60_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n3_u60_constrained_jitter_r0.json",
+      "workload_sha256": "157010bbe3f81fbd862e45cd4f983b9c9b7fefc3fc02fda92a79963de1fcec30"
+    },
+    {
+      "task_set_id": "test_n3_u60_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n3_u60_constrained_bursts_r0.json",
+      "workload_sha256": "d4867534ca923220941ca0f4a34560c6b645c6d977afa3b18a52f3156ee75d90"
+    },
+    {
+      "task_set_id": "test_n3_u80_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n3_u80_implicit_synchronous_r0.json",
+      "workload_sha256": "d631d467bb5c7cd8c37d6502dbeb244359d5328c874c07a025895c6763a9ad6c"
+    },
+    {
+      "task_set_id": "test_n3_u80_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n3_u80_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "95045e84fd3dc47bfcbb5db2371c79c99840dd2615e607304aa65df2fc590e69"
+    },
+    {
+      "task_set_id": "test_n3_u80_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n3_u80_implicit_jitter_r0.json",
+      "workload_sha256": "6b0e637586a0673139522b0ab7b61264150de2c1a7a2966f4da73be372adf1a7"
+    },
+    {
+      "task_set_id": "test_n3_u80_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n3_u80_implicit_bursts_r0.json",
+      "workload_sha256": "22fa6606037ed9e00ab98c8d1088b75b38a68cf14e3125a18b65ad3e4a022ad6"
+    },
+    {
+      "task_set_id": "test_n3_u80_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n3_u80_constrained_synchronous_r0.json",
+      "workload_sha256": "ac672ac8f1d274e2fee1be101d4243cecda4276b7aa9e94093aa87a156581c72"
+    },
+    {
+      "task_set_id": "test_n3_u80_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n3_u80_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "44bbd213c0d7b89bc1108a54a8ef376bb26e925c70bd2d3ea84193826ad1935c"
+    },
+    {
+      "task_set_id": "test_n3_u80_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n3_u80_constrained_jitter_r0.json",
+      "workload_sha256": "d3d3eb41b29ccb3f9d4238e30dab2b259bcf1ade2ea50017928bb5d5bb395090"
+    },
+    {
+      "task_set_id": "test_n3_u80_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n3_u80_constrained_bursts_r0.json",
+      "workload_sha256": "1fbda73000efb4470e615cd18313d3af61b89d811580a4b8f71c4c4a4ec1f1b3"
+    },
+    {
+      "task_set_id": "test_n3_u95_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n3_u95_implicit_synchronous_r0.json",
+      "workload_sha256": "d8bd322172503f86e5b8329db78d9bd2cb974ed13993cbc7ff70d656311a1ee5"
+    },
+    {
+      "task_set_id": "test_n3_u95_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n3_u95_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "0437288ee3a7594ea6c3deba684d2d0432e3ebcccb52debecd5a13e46de988f1"
+    },
+    {
+      "task_set_id": "test_n3_u95_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n3_u95_implicit_jitter_r0.json",
+      "workload_sha256": "1d23e74fea51d07cf58052ccf68c43657e23300975a47a2691934361880f3fe5"
+    },
+    {
+      "task_set_id": "test_n3_u95_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n3_u95_implicit_bursts_r0.json",
+      "workload_sha256": "01e2905a5305fc6be745c3c17c5c6cfa966bd62faaff4946b68695e9447065c8"
+    },
+    {
+      "task_set_id": "test_n3_u95_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n3_u95_constrained_synchronous_r0.json",
+      "workload_sha256": "05b6e7b3d7b7a88aadb937d1b3544d175ab31cc02509a622a39310a8ea4d56a9"
+    },
+    {
+      "task_set_id": "test_n3_u95_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n3_u95_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "2ba746c86bb8395a3a75a50a306c79dd3625781366cb921f0fd946dc1dfadb87"
+    },
+    {
+      "task_set_id": "test_n3_u95_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n3_u95_constrained_jitter_r0.json",
+      "workload_sha256": "0f6c1ff24380345c876f278f7a030272382c36e493cbe2984e8cbffffad5c847"
+    },
+    {
+      "task_set_id": "test_n3_u95_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n3_u95_constrained_bursts_r0.json",
+      "workload_sha256": "0c1a7ca5e6d50782987603af677273f7a7bd62888d1be14037f848c3c5554589"
+    },
+    {
+      "task_set_id": "test_n3_u110_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n3_u110_implicit_synchronous_r0.json",
+      "workload_sha256": "ea61e7071747bc13c0662cf5b32ae0994c4e251d8310c58170f2a9a8eee92e25"
+    },
+    {
+      "task_set_id": "test_n3_u110_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n3_u110_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "7c47df8a1c8ce4602b6706012173d5c6a705c4860f5937cfd085f26185a475ff"
+    },
+    {
+      "task_set_id": "test_n3_u110_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n3_u110_implicit_jitter_r0.json",
+      "workload_sha256": "8a2f64bdd0275db40b8420033a8b065fa8cff9a18b8dacf1627dac5badbcb713"
+    },
+    {
+      "task_set_id": "test_n3_u110_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n3_u110_implicit_bursts_r0.json",
+      "workload_sha256": "63d0bf6692b314900d99524f67b0d4514ea37e847398413d6020a03c23dffaed"
+    },
+    {
+      "task_set_id": "test_n3_u110_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n3_u110_constrained_synchronous_r0.json",
+      "workload_sha256": "1dc0c504e15530c965dc3595ac5645ec63d16c69efa31e1fa5a6d6ac9ee5e93c"
+    },
+    {
+      "task_set_id": "test_n3_u110_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n3_u110_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "0950b94f330038d37003d1e6a8b5e9c58984f55370826f7be7e2f6fc72d86b2f"
+    },
+    {
+      "task_set_id": "test_n3_u110_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n3_u110_constrained_jitter_r0.json",
+      "workload_sha256": "d9d95355450f6b218e4fa026a02c4dbca05ab9fb6ac0dd5cdc391745cdcb28f9"
+    },
+    {
+      "task_set_id": "test_n3_u110_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n3_u110_constrained_bursts_r0.json",
+      "workload_sha256": "034904389d1177b25ff822b94ecca9f92665d735fe05d4261d68ab2e6e3a173a"
+    },
+    {
+      "task_set_id": "test_n5_u40_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n5_u40_implicit_synchronous_r0.json",
+      "workload_sha256": "ce6fdef4e7c4d92cbc92d3d41200bd204c8feefd8a1456e5aee52cde85ba6a4b"
+    },
+    {
+      "task_set_id": "test_n5_u40_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n5_u40_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "d777b17613a4c9be41510e4c60b115186cf5c01882dca3e2893764affa3b3d8c"
+    },
+    {
+      "task_set_id": "test_n5_u40_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n5_u40_implicit_jitter_r0.json",
+      "workload_sha256": "6ef27cd5d17c81c6a316151dfb568b0a5e1aa9ce4bf11be9fb78b6246e2a1abf"
+    },
+    {
+      "task_set_id": "test_n5_u40_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n5_u40_implicit_bursts_r0.json",
+      "workload_sha256": "115bae7d0d4cd0f1e757ad2d1d9e4073c211ebf82db1d7ec406f69c55f9a5893"
+    },
+    {
+      "task_set_id": "test_n5_u40_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n5_u40_constrained_synchronous_r0.json",
+      "workload_sha256": "e73d0e36ff3a9ad77a35b93e6d44ef72b754d731a9065c215d2d4b7f69c5a68b"
+    },
+    {
+      "task_set_id": "test_n5_u40_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n5_u40_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "11c3f0d20a98424b32f3032277c6b6af012096912288bcb701ed7563b0a9ffa4"
+    },
+    {
+      "task_set_id": "test_n5_u40_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n5_u40_constrained_jitter_r0.json",
+      "workload_sha256": "92f011bafa478f26743a9a2a2790db45755e8a8f3f8fd2618b38683af7aaaf50"
+    },
+    {
+      "task_set_id": "test_n5_u40_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n5_u40_constrained_bursts_r0.json",
+      "workload_sha256": "5671b52050ec5392d3fe6668c5dcb2ee31af0bdaf93e0913d68aca02544d8a19"
+    },
+    {
+      "task_set_id": "test_n5_u60_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n5_u60_implicit_synchronous_r0.json",
+      "workload_sha256": "2c4d9a3ae27a5baa044651bfa95e742d66b0a688cee81c0dd82add1ca8f3871d"
+    },
+    {
+      "task_set_id": "test_n5_u60_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n5_u60_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "eee645d4021613bfd2a21157a802e5bf98f9718b1ef23d25ae706080eb18ffa3"
+    },
+    {
+      "task_set_id": "test_n5_u60_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n5_u60_implicit_jitter_r0.json",
+      "workload_sha256": "c1dd1c45a46ca6b962a48cbfc5bc108375d4a62450ac7beb950b1ee76b7e55a2"
+    },
+    {
+      "task_set_id": "test_n5_u60_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n5_u60_implicit_bursts_r0.json",
+      "workload_sha256": "1ebfb0b64560f85618c6979a43ddaf8a8b524cf63ff1267a1d2288edc93021ec"
+    },
+    {
+      "task_set_id": "test_n5_u60_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n5_u60_constrained_synchronous_r0.json",
+      "workload_sha256": "cbd62270af170eded7b36a87c9ba11e9c449162acc95979b21a0ddd97677a7fd"
+    },
+    {
+      "task_set_id": "test_n5_u60_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n5_u60_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "54e002d9b34aab36c7b7f5cbcb70f10a9d7e75d24c5336c6358a0fef0d97dd18"
+    },
+    {
+      "task_set_id": "test_n5_u60_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n5_u60_constrained_jitter_r0.json",
+      "workload_sha256": "e69e8eb32ebc71788dc50576826025fa3726fbc26ab367fd2b2cbf175917a8d8"
+    },
+    {
+      "task_set_id": "test_n5_u60_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n5_u60_constrained_bursts_r0.json",
+      "workload_sha256": "4282172ba3f53ad73cfd0dae8d3107801f678bdefaa31b696563b52ecbb7569f"
+    },
+    {
+      "task_set_id": "test_n5_u80_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n5_u80_implicit_synchronous_r0.json",
+      "workload_sha256": "538c23db62308b721be99a98722115dd4f2b75cce17608caff139a68afaca78b"
+    },
+    {
+      "task_set_id": "test_n5_u80_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n5_u80_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "eb01bb89ad9bc6cb0352b0df61660960c318cfa87f4fb18043f630c78524dea2"
+    },
+    {
+      "task_set_id": "test_n5_u80_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n5_u80_implicit_jitter_r0.json",
+      "workload_sha256": "796ae380a3a2f112c9eb168f3b08c4e112327d6e969cbc6784a3533b687d4722"
+    },
+    {
+      "task_set_id": "test_n5_u80_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n5_u80_implicit_bursts_r0.json",
+      "workload_sha256": "45548da11a9a5aa927ecbe680473805e99afa93d135e29a1b391d60cfc524b79"
+    },
+    {
+      "task_set_id": "test_n5_u80_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n5_u80_constrained_synchronous_r0.json",
+      "workload_sha256": "f15d9c3c1ec04d8a98716fed0848cefe679342bce8040036bb4f0d61b6284e46"
+    },
+    {
+      "task_set_id": "test_n5_u80_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n5_u80_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "d7376abb88782a12c4a0acf44d8b1bc8caeb73f8797044b310be47980dd78775"
+    },
+    {
+      "task_set_id": "test_n5_u80_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n5_u80_constrained_jitter_r0.json",
+      "workload_sha256": "7d1f2132d70e61a2e34cf4eb36171644f1a0454d5495994c81ebb1826cf601aa"
+    },
+    {
+      "task_set_id": "test_n5_u80_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n5_u80_constrained_bursts_r0.json",
+      "workload_sha256": "6a20dba621ffdfd251507c601becf80f68f0d42fa0160760b21e13a32250f955"
+    },
+    {
+      "task_set_id": "test_n5_u95_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n5_u95_implicit_synchronous_r0.json",
+      "workload_sha256": "0e9a1c826c5d9714d2097a5058134b67f9509e07d41330289ab9bfc1cf699d24"
+    },
+    {
+      "task_set_id": "test_n5_u95_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n5_u95_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "7fc6afc61eec22dfd213b92e0f8a0cefa56f1bdc6b6862f7bca21ef8bff41bce"
+    },
+    {
+      "task_set_id": "test_n5_u95_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n5_u95_implicit_jitter_r0.json",
+      "workload_sha256": "5a637195b3f4a66231e5af6f47ae6413c18ca4459584e133571034229d729169"
+    },
+    {
+      "task_set_id": "test_n5_u95_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n5_u95_implicit_bursts_r0.json",
+      "workload_sha256": "e70b50601b8b03a13b3e02b9055c8e9419dacc56ae4c3c53d7369649c85ff39e"
+    },
+    {
+      "task_set_id": "test_n5_u95_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n5_u95_constrained_synchronous_r0.json",
+      "workload_sha256": "3142ebb231c507074922c6e370139385b389be87c74913caae19b156d1fa271d"
+    },
+    {
+      "task_set_id": "test_n5_u95_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n5_u95_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "db7bb80dcb296867cf40350b0cc8d82d849f70237a43b29d1126c706c40abe15"
+    },
+    {
+      "task_set_id": "test_n5_u95_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n5_u95_constrained_jitter_r0.json",
+      "workload_sha256": "c13c49ba3f8ebbf1c4c8d255ff2671dac97518d305f15d003257bc0488aa8c8c"
+    },
+    {
+      "task_set_id": "test_n5_u95_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n5_u95_constrained_bursts_r0.json",
+      "workload_sha256": "84530b8a71bd8f03823502f42b195dcad5eb8e90a08622e6f94cdab282f7d377"
+    },
+    {
+      "task_set_id": "test_n5_u110_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n5_u110_implicit_synchronous_r0.json",
+      "workload_sha256": "eaa339a17b77d27a5fb5989cb0828439c5688426b1dd522a4d9ece9cac8d67b6"
+    },
+    {
+      "task_set_id": "test_n5_u110_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n5_u110_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "d6515361ac8b6708351e2d42f23e15bebe5339595d29c36dc6571e1a839a0129"
+    },
+    {
+      "task_set_id": "test_n5_u110_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n5_u110_implicit_jitter_r0.json",
+      "workload_sha256": "a56794a7d4687708ae43a1907a264143986d66eed38d3bdf65f56dbe117c1d32"
+    },
+    {
+      "task_set_id": "test_n5_u110_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n5_u110_implicit_bursts_r0.json",
+      "workload_sha256": "fd3c67c3816147b3fdd251f4438c554a25b6f4a4f7549b90b62aaf0d742f28d1"
+    },
+    {
+      "task_set_id": "test_n5_u110_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n5_u110_constrained_synchronous_r0.json",
+      "workload_sha256": "0754373229a981480f06e55182f8d262156c2c154a56c141154942e02ee09c72"
+    },
+    {
+      "task_set_id": "test_n5_u110_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n5_u110_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "f510f6dd9a1c3a105deb6e6bc99014c23ad8697d3bc1eaffea8591ed46eb85e8"
+    },
+    {
+      "task_set_id": "test_n5_u110_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n5_u110_constrained_jitter_r0.json",
+      "workload_sha256": "8ba6b64db5f6b7a1fce3c367da674a26b47b728b5c69c076bc2b0473538369b4"
+    },
+    {
+      "task_set_id": "test_n5_u110_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n5_u110_constrained_bursts_r0.json",
+      "workload_sha256": "0da56485ed17544c9fec00c27decdf146d558c30018d10d39b01c7d99234cd20"
+    },
+    {
+      "task_set_id": "test_n8_u40_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n8_u40_implicit_synchronous_r0.json",
+      "workload_sha256": "76a236254dc55c88b0ec1158f90bdb0d16c5dc203c55c427aaf1fdda4c50f77c"
+    },
+    {
+      "task_set_id": "test_n8_u40_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n8_u40_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "9375d8b5d69e28aa50734a9b74764f41500d635d60084225288cc799688caa0d"
+    },
+    {
+      "task_set_id": "test_n8_u40_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n8_u40_implicit_jitter_r0.json",
+      "workload_sha256": "da876038ce721930df906cf425cdffb3151246ed99fbcbee7a3f446f3f323884"
+    },
+    {
+      "task_set_id": "test_n8_u40_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n8_u40_implicit_bursts_r0.json",
+      "workload_sha256": "5097611cc4da5429c46187ba445594ad1b13a64650df5f79ee3376ea9034c5f9"
+    },
+    {
+      "task_set_id": "test_n8_u40_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n8_u40_constrained_synchronous_r0.json",
+      "workload_sha256": "77e52066a5b3f3afe6f5652e2419f8cf06f10fcccc9c2023ed45ea5feca04e9c"
+    },
+    {
+      "task_set_id": "test_n8_u40_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n8_u40_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "562f4b4fd8311e01a58eae12bfda8f7372498fae1beca5821d7a1025c3ac0c47"
+    },
+    {
+      "task_set_id": "test_n8_u40_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n8_u40_constrained_jitter_r0.json",
+      "workload_sha256": "5db69ed79916fd4f1a34354d00acc2a0f2aeb760218d8d0cd39c40d866599471"
+    },
+    {
+      "task_set_id": "test_n8_u40_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n8_u40_constrained_bursts_r0.json",
+      "workload_sha256": "2b816192d330e0970da602ef813ba8b5dc130df12b570b738eecd898f478e4bd"
+    },
+    {
+      "task_set_id": "test_n8_u60_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n8_u60_implicit_synchronous_r0.json",
+      "workload_sha256": "5a29e3b160c1914c4543dc89a622a2a9177799fd6214d50bd01277d877e08e6e"
+    },
+    {
+      "task_set_id": "test_n8_u60_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n8_u60_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "426689142c51e94d257b31c52920ad05aaddf2b666117d81c275fce81d390807"
+    },
+    {
+      "task_set_id": "test_n8_u60_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n8_u60_implicit_jitter_r0.json",
+      "workload_sha256": "5a5a26bbe25faf24aec65ac60c55efa9af17ac58b1419430b5ec246a156bd4f3"
+    },
+    {
+      "task_set_id": "test_n8_u60_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n8_u60_implicit_bursts_r0.json",
+      "workload_sha256": "b1e627ed7ccd100294702f7e768fa27cbb120f060dfb66fcdd3bcc1deb9414b8"
+    },
+    {
+      "task_set_id": "test_n8_u60_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n8_u60_constrained_synchronous_r0.json",
+      "workload_sha256": "3ca447ab0b922448a697a62d0a1869cda3d867c8d4eac637bdc52bf7fe6f9fad"
+    },
+    {
+      "task_set_id": "test_n8_u60_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n8_u60_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "8984bfc9e0930f24e5790558ea929cbda1738557901ffc29ede9f073a2c7ff1a"
+    },
+    {
+      "task_set_id": "test_n8_u60_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n8_u60_constrained_jitter_r0.json",
+      "workload_sha256": "f5720542c45d9ab2e29d9e3ba7afc27d59037481679461559a77be2a6c26fa05"
+    },
+    {
+      "task_set_id": "test_n8_u60_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n8_u60_constrained_bursts_r0.json",
+      "workload_sha256": "b69ea8d97a9bd9f940933f3f32034b0b99f268e4a46c66f322fb085f83360eb4"
+    },
+    {
+      "task_set_id": "test_n8_u80_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n8_u80_implicit_synchronous_r0.json",
+      "workload_sha256": "7d956ca731f63b82a38d4c4a593edd98188476a9a2478dabf5e05943e6182c18"
+    },
+    {
+      "task_set_id": "test_n8_u80_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n8_u80_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "e264884ac3ae081a6649387886dc41f4d8d9c73fc09b61195a2aa3b391aeb54a"
+    },
+    {
+      "task_set_id": "test_n8_u80_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n8_u80_implicit_jitter_r0.json",
+      "workload_sha256": "17ab06af56d4097227ac136fab91c00cba088c1e155812e9c403cfe235484f31"
+    },
+    {
+      "task_set_id": "test_n8_u80_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n8_u80_implicit_bursts_r0.json",
+      "workload_sha256": "6652562f5bf83369588e94c5d264c1075d5e20128d86d564937d18199ccc7270"
+    },
+    {
+      "task_set_id": "test_n8_u80_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n8_u80_constrained_synchronous_r0.json",
+      "workload_sha256": "251fe37e125168d232194afece4a210361e5a68488a7df61cba2bd2ea57b239c"
+    },
+    {
+      "task_set_id": "test_n8_u80_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n8_u80_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "ebebbcfd1f67fbce6d667ed0b598f1277cc85fe9623c919218525605e634f9e4"
+    },
+    {
+      "task_set_id": "test_n8_u80_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n8_u80_constrained_jitter_r0.json",
+      "workload_sha256": "1052975ab126d7edd21cd356fa1c24b5afa2cad478c00dbdf668a04419ba3477"
+    },
+    {
+      "task_set_id": "test_n8_u80_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n8_u80_constrained_bursts_r0.json",
+      "workload_sha256": "83e07182f1ed08be5e23f2e52439119ca24e37e1dd332bc7f2bcc51adaac364a"
+    },
+    {
+      "task_set_id": "test_n8_u95_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n8_u95_implicit_synchronous_r0.json",
+      "workload_sha256": "b2edf121df53f1fc809bdc0baf41f029b1940dbfce76f5e950db8336e0006656"
+    },
+    {
+      "task_set_id": "test_n8_u95_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n8_u95_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "9f63fb04f6c3c308c73877bd8403eb5fe770ce89e8399af07c20300849df97ed"
+    },
+    {
+      "task_set_id": "test_n8_u95_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n8_u95_implicit_jitter_r0.json",
+      "workload_sha256": "283cadb0929b5bafe93a961bc6bce1e47e5146b0e9b1412020251793fc7e06cb"
+    },
+    {
+      "task_set_id": "test_n8_u95_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n8_u95_implicit_bursts_r0.json",
+      "workload_sha256": "c2db64c1985c45f675e7ea26c133b2397326630c308ab7c2dc8b46eca358903b"
+    },
+    {
+      "task_set_id": "test_n8_u95_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n8_u95_constrained_synchronous_r0.json",
+      "workload_sha256": "c49a50beed5169e697d4e443ab4dfaa7d13d4931d6dacde80f1ff5e2f68aa5ba"
+    },
+    {
+      "task_set_id": "test_n8_u95_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n8_u95_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "52e74c5c7776f47fd08e9fb7033a2d21254ba4198742b565c07d7e64f1692e0c"
+    },
+    {
+      "task_set_id": "test_n8_u95_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n8_u95_constrained_jitter_r0.json",
+      "workload_sha256": "b582fc3c069150e473466eaf27dc0c62fd7025de18f7a4d809f8acf21c5ebcb1"
+    },
+    {
+      "task_set_id": "test_n8_u95_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n8_u95_constrained_bursts_r0.json",
+      "workload_sha256": "f825bf16b496a055bf5cdcc9dfefb9c37cc3dcfbe01cf4c2dc0f3195aa058326"
+    },
+    {
+      "task_set_id": "test_n8_u110_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n8_u110_implicit_synchronous_r0.json",
+      "workload_sha256": "108bb0c326738446f103d1e6acadf580232cf3c6423558723a82d53bdedbea8c"
+    },
+    {
+      "task_set_id": "test_n8_u110_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n8_u110_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "f3ecfa34d4ab85893662b919dc3b57fe28de3968d1c948cadefc3908ef5f2195"
+    },
+    {
+      "task_set_id": "test_n8_u110_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n8_u110_implicit_jitter_r0.json",
+      "workload_sha256": "18bc2eca29ece6714ea4e4901ba913c35025a74980e6ca0037ffb231a528f75e"
+    },
+    {
+      "task_set_id": "test_n8_u110_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n8_u110_implicit_bursts_r0.json",
+      "workload_sha256": "723c69952064f331802702e7e4219acb57d163576ed1a9478f13fa2df32efe18"
+    },
+    {
+      "task_set_id": "test_n8_u110_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n8_u110_constrained_synchronous_r0.json",
+      "workload_sha256": "60429aa2dc2b0c894eb1e1d51508275a18284e36e4c21a1b3eb7fbecdbe05d68"
+    },
+    {
+      "task_set_id": "test_n8_u110_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n8_u110_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "e2c77def843010544c423d736aae83f750eba58306459a533f77bbd6783ddf01"
+    },
+    {
+      "task_set_id": "test_n8_u110_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n8_u110_constrained_jitter_r0.json",
+      "workload_sha256": "5392341ab141ba8328a29a456235cc03447c75c941ce3a151e21b002d4616534"
+    },
+    {
+      "task_set_id": "test_n8_u110_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n8_u110_constrained_bursts_r0.json",
+      "workload_sha256": "fe88a21a82a44dd0f1b6baad488e4292e7bc3f547550916e3b46ceea0e3b177a"
+    },
+    {
+      "task_set_id": "test_n10_u40_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n10_u40_implicit_synchronous_r0.json",
+      "workload_sha256": "e03755ad76da9a8997af0a1e37a5f59eed2952ce30beb8cfceba98e69a8bf3cc"
+    },
+    {
+      "task_set_id": "test_n10_u40_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n10_u40_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "7e4a37b6b83660b77721818932407c0124c395856d5ff325ef09c4e48b16cd8f"
+    },
+    {
+      "task_set_id": "test_n10_u40_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n10_u40_implicit_jitter_r0.json",
+      "workload_sha256": "3687e07182686e9369304acd7b27d55a78671c4bf38e426d48787f2ad528f76a"
+    },
+    {
+      "task_set_id": "test_n10_u40_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n10_u40_implicit_bursts_r0.json",
+      "workload_sha256": "01b785e4278a317709cc464076ee603faac43710d607cbb3085902f9287fa9dd"
+    },
+    {
+      "task_set_id": "test_n10_u40_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n10_u40_constrained_synchronous_r0.json",
+      "workload_sha256": "6eb22d933be9002dbbb64ceac4ea41e513b066b0157cd84db300e759e936a499"
+    },
+    {
+      "task_set_id": "test_n10_u40_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n10_u40_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "a53b27c6f959a7c6edf02ac45fa4261c36ab4e27f692a45cf54a4eca910e4a0b"
+    },
+    {
+      "task_set_id": "test_n10_u40_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n10_u40_constrained_jitter_r0.json",
+      "workload_sha256": "03e9aadaeec4a6d50a530814576197f6da9161e107c78ad60b0fb1e88149b3df"
+    },
+    {
+      "task_set_id": "test_n10_u40_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n10_u40_constrained_bursts_r0.json",
+      "workload_sha256": "bed77f076975d16a2c90966311d642eeac947acfacc5fec3cd813475049b58b6"
+    },
+    {
+      "task_set_id": "test_n10_u60_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n10_u60_implicit_synchronous_r0.json",
+      "workload_sha256": "cbde7fa817f6e62c10b88cac0ee773bd4c9611984181298605e702bc00e1d22a"
+    },
+    {
+      "task_set_id": "test_n10_u60_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n10_u60_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "37e8c2a7870dd2c6c65756b7a754fe222ca9eb98928265e68169f23dc94e099c"
+    },
+    {
+      "task_set_id": "test_n10_u60_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n10_u60_implicit_jitter_r0.json",
+      "workload_sha256": "9deb03d6626b76ab38c3b503dec4334ff53e8db529dddc635817fcc602c322c3"
+    },
+    {
+      "task_set_id": "test_n10_u60_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n10_u60_implicit_bursts_r0.json",
+      "workload_sha256": "aace16631ea3079a75f261ef876c9e728a0eb9d43676adffdd7bab8f7bacfc1d"
+    },
+    {
+      "task_set_id": "test_n10_u60_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n10_u60_constrained_synchronous_r0.json",
+      "workload_sha256": "4f722b4ca7abc698a3c7c3d410ff68de995c93a47340416cd60b1ae7f3c326c0"
+    },
+    {
+      "task_set_id": "test_n10_u60_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n10_u60_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "de9d32c9fb010cb0ec40df1e75a77bc979c2d23627dc4ca9039940d6dbe8810e"
+    },
+    {
+      "task_set_id": "test_n10_u60_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n10_u60_constrained_jitter_r0.json",
+      "workload_sha256": "8ef6712f425136a6d3341a17250a2085f8a38804fbe3968a1019f35a56891167"
+    },
+    {
+      "task_set_id": "test_n10_u60_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n10_u60_constrained_bursts_r0.json",
+      "workload_sha256": "e1c848551d6dfbda62fcbff4b7769eed1928632dced6100dcdf662cd5858c266"
+    },
+    {
+      "task_set_id": "test_n10_u80_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n10_u80_implicit_synchronous_r0.json",
+      "workload_sha256": "7049f053a259970fc7ad18176acf082ee7e5f936e91fd821858eb594ca3be685"
+    },
+    {
+      "task_set_id": "test_n10_u80_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n10_u80_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "cf5d04e4bdda11c983eb2820f08f5354ddec9cfd4d767dc3dbeaac39f48db58e"
+    },
+    {
+      "task_set_id": "test_n10_u80_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n10_u80_implicit_jitter_r0.json",
+      "workload_sha256": "47587de263f236867540fc618845daccb40e85019584b6a0ad0ab4ad59929362"
+    },
+    {
+      "task_set_id": "test_n10_u80_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n10_u80_implicit_bursts_r0.json",
+      "workload_sha256": "09dfc0a3671cdb86eb3cee8603d4871d972c5b9a8a3b7e8459e4b1a6703bf92e"
+    },
+    {
+      "task_set_id": "test_n10_u80_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n10_u80_constrained_synchronous_r0.json",
+      "workload_sha256": "15b277df2acd92be70a75b35886841902313632270dd7b97cb22d8abcd8620ab"
+    },
+    {
+      "task_set_id": "test_n10_u80_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n10_u80_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "543b52b20fe2c992c4358f8a27f6c9e0fd9c12c43b3d2589034d409a6e7904a9"
+    },
+    {
+      "task_set_id": "test_n10_u80_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n10_u80_constrained_jitter_r0.json",
+      "workload_sha256": "b5d1e2917a1650469790158d26489ea2afbeec048ae0d635d69fb2d53197d65d"
+    },
+    {
+      "task_set_id": "test_n10_u80_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n10_u80_constrained_bursts_r0.json",
+      "workload_sha256": "51e450d96db18273d24b4c1eb93214e974a19a8d7af33f768102be72957dba4e"
+    },
+    {
+      "task_set_id": "test_n10_u95_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n10_u95_implicit_synchronous_r0.json",
+      "workload_sha256": "3554ca1c62759d0ceab83c48ab29f14b7347095b64903e935034d066d40c8a1f"
+    },
+    {
+      "task_set_id": "test_n10_u95_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n10_u95_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "b640a03e3068714c6e76b8c390d965344012fee330ddb20c64f738302ed7a7a6"
+    },
+    {
+      "task_set_id": "test_n10_u95_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n10_u95_implicit_jitter_r0.json",
+      "workload_sha256": "6f40a9b4a764eefff7076368f9b449f0293b4e160abf53281b07b624683b8c1e"
+    },
+    {
+      "task_set_id": "test_n10_u95_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n10_u95_implicit_bursts_r0.json",
+      "workload_sha256": "c906f00207269caf785ec0fe87bb81a298db89a671344fcf6f508cd25aab9ceb"
+    },
+    {
+      "task_set_id": "test_n10_u95_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n10_u95_constrained_synchronous_r0.json",
+      "workload_sha256": "5771da1646f582cff46e212e8afe741ab5646d7b76aa84bf56ca1f34f8a5aa5a"
+    },
+    {
+      "task_set_id": "test_n10_u95_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n10_u95_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "23a2b225cfd0c33e322268ecf3329438faace2b8bca01ebcffc688ce9cc034e9"
+    },
+    {
+      "task_set_id": "test_n10_u95_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n10_u95_constrained_jitter_r0.json",
+      "workload_sha256": "e0b91c5a8a38eb819a228286f975cc9c4802b647cb3fb0e888313a8c6967f897"
+    },
+    {
+      "task_set_id": "test_n10_u95_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n10_u95_constrained_bursts_r0.json",
+      "workload_sha256": "986ff4722f42b05f22130c59ddc6e50be4987f6ee3b672f0203b4187ee01012e"
+    },
+    {
+      "task_set_id": "test_n10_u110_implicit_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n10_u110_implicit_synchronous_r0.json",
+      "workload_sha256": "63e3e6cab270de79edc9b190b4b2957d68e61b22d00fccd769b989070d64bf80"
+    },
+    {
+      "task_set_id": "test_n10_u110_implicit_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n10_u110_implicit_fixed_offsets_r0.json",
+      "workload_sha256": "96db5b7b36a52643969f44c5220d44c7b712e1221e0be56e50ec19a92a16ca68"
+    },
+    {
+      "task_set_id": "test_n10_u110_implicit_jitter_r0",
+      "split": "test",
+      "path": "test/test_n10_u110_implicit_jitter_r0.json",
+      "workload_sha256": "4f20ee09d50a51e8fa7fd6f36aa24048f68bae07bb358afb7fd75a82a901318b"
+    },
+    {
+      "task_set_id": "test_n10_u110_implicit_bursts_r0",
+      "split": "test",
+      "path": "test/test_n10_u110_implicit_bursts_r0.json",
+      "workload_sha256": "173395a287f19bcd7178d6df9b4c6f8fcfa8e2da354171dd02b4cc85affd9c3d"
+    },
+    {
+      "task_set_id": "test_n10_u110_constrained_synchronous_r0",
+      "split": "test",
+      "path": "test/test_n10_u110_constrained_synchronous_r0.json",
+      "workload_sha256": "8adcd97f47f63d6efafff1b52d5414ff7d13e114edd7bad595dc376381920d87"
+    },
+    {
+      "task_set_id": "test_n10_u110_constrained_fixed_offsets_r0",
+      "split": "test",
+      "path": "test/test_n10_u110_constrained_fixed_offsets_r0.json",
+      "workload_sha256": "07abe578fb342e52f35195e1024832528bd2fc0ae053838dc8979ccc5e213079"
+    },
+    {
+      "task_set_id": "test_n10_u110_constrained_jitter_r0",
+      "split": "test",
+      "path": "test/test_n10_u110_constrained_jitter_r0.json",
+      "workload_sha256": "7cc282f37f776613a06f6809c1738148ce5092785819cbb6477659ccd11ecefc"
+    },
+    {
+      "task_set_id": "test_n10_u110_constrained_bursts_r0",
+      "split": "test",
+      "path": "test/test_n10_u110_constrained_bursts_r0.json",
+      "workload_sha256": "38c2aad344f0a40dbe4bd28a8b8e4c8c89e9d4915dd345e9b86e327f310b97d3"
+    }
+  ],
+  "purpose": "Pilot workloads only, not a state-label training dataset"
+}

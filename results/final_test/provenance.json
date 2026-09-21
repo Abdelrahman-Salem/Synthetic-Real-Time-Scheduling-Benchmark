@@ -1,0 +1,12 @@
+{
+  "status": "FINAL_FROZEN_TEST_EVALUATION",
+  "decision_interval_ms": 100,
+  "task_sets": 160,
+  "manifest_sha256": "921cb1551ce438e7b45caf92c988751b18380291cd19ed825967765c9c14e67f",
+  "suite_sha256": "52351243eb401a11de776b713da6e12509920619a7b356de93cff5d5e3ccb47a",
+  "family_model_sha256": "a7bae239338114cc323b767e7ec349bc6e951d346e9460be58c5e92b874da759",
+  "rms_boost_model_sha256": "97a8bcdef21bec5f835ac25b69518d51e866ae943580c2ebfa360a08682b5fc5",
+  "edf_boost_model_sha256": "d57323399ef7a20d5c4b113d5133ecca33fa0e787c9387a01a794d808f5ee21f",
+  "training_performed": false,
+  "hyperparameter_tuning_performed": false
+}

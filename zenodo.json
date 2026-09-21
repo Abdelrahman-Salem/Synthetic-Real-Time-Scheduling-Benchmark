@@ -1,0 +1,14 @@
+{
+  "title": "Synthetic Real Time Scheduling Benchmark for Adaptive RMS EDF and Priority Boost Evaluation",
+  "upload_type": "dataset",
+  "description": "A deterministic synthetic benchmark of 640 real time task sets for adaptive selection among RMS, EDF, and bounded Priority Boost variants, including frozen splits, state level counterfactual labels, protocols, reference models, and complete results.",
+  "creators": [
+    {"name": "Salem, Abdelrahman Mohamed Mohamed", "affiliation": "Faculty of Computers and Artificial Intelligence, Fayoum University, Egypt"},
+    {"name": "Salama, Ahmed", "affiliation": "Department of Information Systems, Faculty of Computers and Artificial Intelligence, Fayoum University, Egypt"},
+    {"name": "Rabie, Mostafa", "affiliation": "Department of Computer Science, Faculty of Computers and Artificial Intelligence, Fayoum University, Egypt"}
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "keywords": ["real-time scheduling", "RMS", "EDF", "priority boost", "adaptive scheduling", "synthetic benchmark"]
+}

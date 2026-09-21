@@ -1,0 +1,98 @@
+{
+  "version": "v8-closed-loop",
+  "split": "validation",
+  "test_evaluated": false,
+  "decision_interval_ms": 100,
+  "task_sets": 160,
+  "methods": {
+    "RMS": {
+      "critical_misses": 231,
+      "total_misses": 631,
+      "completed_jobs": 48722,
+      "dropped_jobs": 252,
+      "context_switches": 46622,
+      "preemptions": 11547,
+      "boost_activations": 0,
+      "boost_execution_ms": 0,
+      "busy_ms": 297349,
+      "mean_response_ms_completed_weighted": 12.282726489060384
+    },
+    "EDF": {
+      "critical_misses": 257,
+      "total_misses": 750,
+      "completed_jobs": 48566,
+      "dropped_jobs": 396,
+      "context_switches": 45169,
+      "preemptions": 10025,
+      "boost_activations": 0,
+      "boost_execution_ms": 0,
+      "busy_ms": 297658,
+      "mean_response_ms_completed_weighted": 13.359613721533583
+    },
+    "RMS+Boost": {
+      "critical_misses": 223,
+      "total_misses": 628,
+      "completed_jobs": 48720,
+      "dropped_jobs": 254,
+      "context_switches": 47110,
+      "preemptions": 12035,
+      "boost_activations": 281,
+      "boost_execution_ms": 541,
+      "busy_ms": 297374,
+      "mean_response_ms_completed_weighted": 12.301929392446635
+    },
+    "EDF+Boost": {
+      "critical_misses": 255,
+      "total_misses": 757,
+      "completed_jobs": 48548,
+      "dropped_jobs": 413,
+      "context_switches": 45752,
+      "preemptions": 10622,
+      "boost_activations": 360,
+      "boost_execution_ms": 711,
+      "busy_ms": 297658,
+      "mean_response_ms_completed_weighted": 13.359170305676855
+    },
+    "ADAPTIVE": {
+      "critical_misses": 202,
+      "total_misses": 419,
+      "completed_jobs": 48735,
+      "dropped_jobs": 238,
+      "context_switches": 46205,
+      "preemptions": 11057,
+      "boost_activations": 164,
+      "boost_execution_ms": 324,
+      "busy_ms": 297639,
+      "mean_response_ms_completed_weighted": 12.8189801990356
+    }
+  },
+  "adaptive_pairwise": {
+    "RMS": {
+      "wins": 28,
+      "ties": 128,
+      "losses": 4
+    },
+    "EDF": {
+      "wins": 7,
+      "ties": 146,
+      "losses": 7
+    },
+    "RMS+Boost": {
+      "wins": 26,
+      "ties": 130,
+      "losses": 4
+    },
+    "EDF+Boost": {
+      "wins": 9,
+      "ties": 145,
+      "losses": 6
+    }
+  },
+  "adaptive_mode_switches": 171,
+  "adaptive_decision_distribution": {
+    "EDF": 4354,
+    "RMS": 100,
+    "RMS+Boost": 286,
+    "EDF+Boost": 60
+  }
+}

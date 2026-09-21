@@ -1,0 +1,352 @@
+{
+  "version": "v7-pilot",
+  "train_rows": 34560,
+  "validation_rows": 17280,
+  "test_evaluated": false,
+  "boost_models": {
+    "RMS": {
+      "train_target_distribution": {
+        "BASE": 34374,
+        "BOOST": 186
+      },
+      "validation_target_distribution": {
+        "BASE": 17157,
+        "BOOST": 123
+      },
+      "params": {
+        "class_weight": "balanced",
+        "max_depth": 2,
+        "min_samples_leaf": 200
+      },
+      "group_cv": {
+        "critical_regret": 98,
+        "total_regret": 217,
+        "boost_decisions": 9000,
+        "folds": [
+          {
+            "critical_regret": 4,
+            "total_regret": 16,
+            "boost_decisions": 1666,
+            "states": 6912
+          },
+          {
+            "critical_regret": 48,
+            "total_regret": 50,
+            "boost_decisions": 1708,
+            "states": 6912
+          },
+          {
+            "critical_regret": 28,
+            "total_regret": 36,
+            "boost_decisions": 1796,
+            "states": 6912
+          },
+          {
+            "critical_regret": 10,
+            "total_regret": 10,
+            "boost_decisions": 1848,
+            "states": 6912
+          },
+          {
+            "critical_regret": 8,
+            "total_regret": 105,
+            "boost_decisions": 1982,
+            "states": 6912
+          }
+        ]
+      },
+      "depth": 2,
+      "leaves": 3,
+      "validation_confusion_BASE_BOOST": [
+        [
+          12654,
+          4503
+        ],
+        [
+          30,
+          93
+        ]
+      ],
+      "validation_within_family": {
+        "critical_regret": 42,
+        "total_regret": 76,
+        "boost_decisions": 4596
+      },
+      "feature_importance": {
+        "nominal_utilization_pct": 0.6923375131369891,
+        "completed_execution_range_pct": 0.3076624868630109,
+        "task_count": 0.0,
+        "ready_queue_length": 0.0,
+        "critical_ready_count": 0.0,
+        "min_slack_ms": 0.0,
+        "mean_slack_ms": 0.0,
+        "min_critical_slack_ms": 0.0,
+        "misses_last_100ms": 0.0,
+        "critical_misses_last_100ms": 0.0,
+        "execution_history_task_count": 0.0,
+        "boost_window_remaining_ms": 0.0,
+        "boost_window_phase_ms": 0.0,
+        "critical_job_boost_budget_remaining_ms": 0.0,
+        "wcet_exhausted_active_count": 0.0
+      }
+    },
+    "EDF": {
+      "train_target_distribution": {
+        "BASE": 33831,
+        "BOOST": 729
+      },
+      "validation_target_distribution": {
+        "BASE": 17152,
+        "BOOST": 128
+      },
+      "params": {
+        "class_weight": {
+          "BASE": 1,
+          "BOOST": 20
+        },
+        "max_depth": 5,
+        "min_samples_leaf": 100
+      },
+      "group_cv": {
+        "critical_regret": 271,
+        "total_regret": 578,
+        "boost_decisions": 1678,
+        "folds": [
+          {
+            "critical_regret": 26,
+            "total_regret": 132,
+            "boost_decisions": 298,
+            "states": 6912
+          },
+          {
+            "critical_regret": 0,
+            "total_regret": 0,
+            "boost_decisions": 90,
+            "states": 6912
+          },
+          {
+            "critical_regret": 40,
+            "total_regret": 118,
+            "boost_decisions": 500,
+            "states": 6912
+          },
+          {
+            "critical_regret": 48,
+            "total_regret": 206,
+            "boost_decisions": 484,
+            "states": 6912
+          },
+          {
+            "critical_regret": 157,
+            "total_regret": 122,
+            "boost_decisions": 306,
+            "states": 6912
+          }
+        ]
+      },
+      "depth": 5,
+      "leaves": 16,
+      "validation_confusion_BASE_BOOST": [
+        [
+          16128,
+          1024
+        ],
+        [
+          0,
+          128
+        ]
+      ],
+      "validation_within_family": {
+        "critical_regret": 8,
+        "total_regret": 196,
+        "boost_decisions": 1152
+      },
+      "feature_importance": {
+        "misses_last_100ms": 0.7361577503054938,
+        "nominal_utilization_pct": 0.1002831042220231,
+        "min_slack_ms": 0.08108859048948987,
+        "completed_execution_range_pct": 0.06722018323399112,
+        "mean_slack_ms": 0.015250371749002092,
+        "task_count": 0.0,
+        "ready_queue_length": 0.0,
+        "critical_ready_count": 0.0,
+        "min_critical_slack_ms": 0.0,
+        "critical_misses_last_100ms": 0.0,
+        "execution_history_task_count": 0.0,
+        "boost_window_remaining_ms": 0.0,
+        "boost_window_phase_ms": 0.0,
+        "critical_job_boost_budget_remaining_ms": 0.0,
+        "wcet_exhausted_active_count": 0.0
+      }
+    }
+  },
+  "combined_validation": {
+    "critical_miss_regret": 1226,
+    "total_miss_regret": 239,
+    "chosen_critical_misses": 3076,
+    "chosen_total_misses": 6514,
+    "oracle_critical_misses": 1850,
+    "oracle_total_misses": 6275,
+    "boost_decisions": 1262,
+    "states": 17280,
+    "regret_distribution": {
+      "(0, 0)": 16529,
+      "(0, 1)": 66,
+      "(1, 0)": 103,
+      "(2, 1)": 101,
+      "(2, 2)": 53,
+      "(2, 0)": 15,
+      "(0, 2)": 62,
+      "(1, 1)": 57,
+      "(3, 1)": 4,
+      "(1, -1)": 50,
+      "(1, -2)": 9,
+      "(2, -1)": 3,
+      "(4, 1)": 20,
+      "(5, 2)": 20,
+      "(5, 1)": 20,
+      "(4, 0)": 16,
+      "(5, 0)": 28,
+      "(5, -1)": 4,
+      "(0, 3)": 18,
+      "(0, 4)": 2,
+      "(2, 3)": 12,
+      "(3, 4)": 2,
+      "(1, -6)": 33,
+      "(2, -4)": 5,
+      "(2, -5)": 8,
+      "(1, -4)": 16,
+      "(1, -8)": 8,
+      "(3, 2)": 4,
+      "(1, 2)": 8,
+      "(2, -3)": 2,
+      "(5, 19)": 2
+    },
+    "selected_policy_distribution": {
+      "EDF": 15638,
+      "RMS": 380,
+      "RMS+Boost": 1060,
+      "EDF+Boost": 202
+    }
+  },
+  "family_tree_always_base_validation": {
+    "critical_miss_regret": 1263,
+    "total_miss_regret": 258,
+    "chosen_critical_misses": 3113,
+    "chosen_total_misses": 6533,
+    "oracle_critical_misses": 1850,
+    "oracle_total_misses": 6275,
+    "boost_decisions": 0,
+    "states": 17280,
+    "regret_distribution": {
+      "(0, 0)": 16504,
+      "(0, 1)": 56,
+      "(1, 0)": 103,
+      "(2, 1)": 103,
+      "(2, 2)": 51,
+      "(2, 0)": 15,
+      "(0, 2)": 56,
+      "(1, 1)": 100,
+      "(3, 1)": 4,
+      "(1, -1)": 50,
+      "(1, -2)": 9,
+      "(2, -1)": 3,
+      "(4, 1)": 20,
+      "(5, 2)": 20,
+      "(5, 1)": 20,
+      "(4, 0)": 16,
+      "(5, 0)": 28,
+      "(5, -1)": 4,
+      "(0, 3)": 18,
+      "(0, 4)": 2,
+      "(2, 3)": 12,
+      "(3, 4)": 2,
+      "(1, -6)": 33,
+      "(2, -4)": 5,
+      "(2, -5)": 8,
+      "(1, -4)": 16,
+      "(1, -8)": 8,
+      "(3, 2)": 2,
+      "(1, 2)": 8,
+      "(2, -3)": 2,
+      "(5, 21)": 2
+    }
+  },
+  "keep_current_policy_validation": {
+    "critical_miss_regret": 1635,
+    "total_miss_regret": 3824,
+    "chosen_critical_misses": 3485,
+    "chosen_total_misses": 10099,
+    "oracle_critical_misses": 1850,
+    "oracle_total_misses": 6275,
+    "boost_decisions": 8640,
+    "states": 17280,
+    "regret_distribution": {
+      "(0, 0)": 15676,
+      "(1, 1)": 192,
+      "(0, 2)": 205,
+      "(0, 3)": 71,
+      "(0, 1)": 343,
+      "(1, 0)": 94,
+      "(2, 1)": 63,
+      "(2, 0)": 38,
+      "(1, -1)": 37,
+      "(2, 2)": 114,
+      "(3, 1)": 2,
+      "(1, -2)": 14,
+      "(4, 1)": 10,
+      "(5, 2)": 10,
+      "(5, 1)": 10,
+      "(4, 0)": 8,
+      "(5, 0)": 16,
+      "(1, 2)": 35,
+      "(0, 4)": 104,
+      "(1, 3)": 10,
+      "(2, 3)": 11,
+      "(1, -4)": 10,
+      "(1, -6)": 15,
+      "(2, -4)": 13,
+      "(2, -5)": 8,
+      "(0, 7)": 10,
+      "(0, 5)": 34,
+      "(3, 4)": 2,
+      "(5, 9)": 5,
+      "(5, 8)": 8,
+      "(5, 7)": 4,
+      "(7, 8)": 7,
+      "(6, 10)": 6,
+      "(5, 6)": 3,
+      "(5, 10)": 4,
+      "(6, 9)": 4,
+      "(4, 6)": 3,
+      "(1, -3)": 4,
+      "(2, -3)": 1,
+      "(3, -2)": 1,
+      "(2, -1)": 1,
+      "(3, 2)": 1,
+      "(3, 9)": 1,
+      "(5, 21)": 1,
+      "(6, 28)": 1,
+      "(4, 29)": 4,
+      "(1, 27)": 4,
+      "(3, 29)": 4,
+      "(3, 30)": 4,
+      "(4, 30)": 4,
+      "(5, 29)": 3,
+      "(3, 8)": 1,
+      "(5, 19)": 1,
+      "(6, 25)": 1,
+      "(4, 26)": 4,
+      "(1, 24)": 4,
+      "(3, 27)": 4,
+      "(3, 28)": 4,
+      "(4, 28)": 4,
+      "(5, 26)": 3,
+      "(0, 6)": 4,
+      "(2, 4)": 4,
+      "(2, 5)": 2,
+      "(1, 4)": 4,
+      "(3, 3)": 7
+    }
+  }
+}

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: If you use this benchmark, please cite the archived dataset release.
+type: dataset
+title: Synthetic Real Time Scheduling Benchmark for Adaptive RMS EDF and Priority Boost Evaluation
+version: 1.0.0
+date-released: 2026-09-21
+authors:
+  - family-names: Salem
+    given-names: Abdelrahman Mohamed Mohamed
+    affiliation: Fayoum University
+    email: amm37@fayoum.edu.eg
+  - family-names: Salama
+    given-names: Ahmed
+    affiliation: Fayoum University
+  - family-names: Rabie
+    given-names: Mostafa
+    affiliation: Fayoum University
+keywords:
+  - real-time scheduling
+  - RMS
+  - EDF
+  - priority boost
+  - adaptive scheduling
+  - synthetic benchmark
+license: CC-BY-4.0
+

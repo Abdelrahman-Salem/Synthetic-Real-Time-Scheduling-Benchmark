@@ -1,0 +1,79 @@
+|--- nominal_utilization_pct <= 108.88
+|   |--- critical_misses_last_100ms <= 0.50
+|   |   |--- task_count <= 6.50
+|   |   |   |--- nominal_utilization_pct <= 94.58
+|   |   |   |   |--- nominal_utilization_pct <= 80.88
+|   |   |   |   |   |--- class: EDF
+|   |   |   |   |--- nominal_utilization_pct >  80.88
+|   |   |   |   |   |--- class: EDF
+|   |   |   |--- nominal_utilization_pct >  94.58
+|   |   |   |   |--- completed_execution_range_pct <= 37.41
+|   |   |   |   |   |--- class: EDF
+|   |   |   |   |--- completed_execution_range_pct >  37.41
+|   |   |   |   |   |--- class: RMS
+|   |   |--- task_count >  6.50
+|   |   |   |--- class: EDF
+|   |--- critical_misses_last_100ms >  0.50
+|   |   |--- nominal_utilization_pct <= 95.04
+|   |   |   |--- ready_queue_length <= 1.50
+|   |   |   |   |--- class: EDF
+|   |   |   |--- ready_queue_length >  1.50
+|   |   |   |   |--- class: EDF
+|   |   |--- nominal_utilization_pct >  95.04
+|   |   |   |--- misses_last_100ms <= 1.50
+|   |   |   |   |--- min_slack_ms <= 11.00
+|   |   |   |   |   |--- class: RMS
+|   |   |   |   |--- min_slack_ms >  11.00
+|   |   |   |   |   |--- class: EDF
+|   |   |   |--- misses_last_100ms >  1.50
+|   |   |   |   |--- mean_slack_ms <= 26.75
+|   |   |   |   |   |--- class: RMS
+|   |   |   |   |--- mean_slack_ms >  26.75
+|   |   |   |   |   |--- class: RMS
+|--- nominal_utilization_pct >  108.88
+|   |--- misses_last_100ms <= 0.50
+|   |   |--- mean_slack_ms <= 38.79
+|   |   |   |--- completed_execution_range_pct <= 23.96
+|   |   |   |   |--- nominal_utilization_pct <= 109.25
+|   |   |   |   |   |--- class: EDF
+|   |   |   |   |--- nominal_utilization_pct >  109.25
+|   |   |   |   |   |--- class: RMS
+|   |   |   |--- completed_execution_range_pct >  23.96
+|   |   |   |   |--- min_slack_ms <= -6.50
+|   |   |   |   |   |--- class: RMS
+|   |   |   |   |--- min_slack_ms >  -6.50
+|   |   |   |   |   |--- class: EDF
+|   |   |--- mean_slack_ms >  38.79
+|   |   |   |--- execution_history_task_count <= 2.50
+|   |   |   |   |--- mean_slack_ms <= 52.84
+|   |   |   |   |   |--- class: RMS
+|   |   |   |   |--- mean_slack_ms >  52.84
+|   |   |   |   |   |--- class: EDF
+|   |   |   |--- execution_history_task_count >  2.50
+|   |   |   |   |--- ready_queue_length <= 7.50
+|   |   |   |   |   |--- class: EDF
+|   |   |   |   |--- ready_queue_length >  7.50
+|   |   |   |   |   |--- class: EDF
+|   |--- misses_last_100ms >  0.50
+|   |   |--- min_slack_ms <= 23.50
+|   |   |   |--- completed_execution_range_pct <= 13.14
+|   |   |   |   |--- mean_slack_ms <= 56.80
+|   |   |   |   |   |--- class: RMS
+|   |   |   |   |--- mean_slack_ms >  56.80
+|   |   |   |   |   |--- class: EDF
+|   |   |   |--- completed_execution_range_pct >  13.14
+|   |   |   |   |--- min_critical_slack_ms <= 12.50
+|   |   |   |   |   |--- class: EDF
+|   |   |   |   |--- min_critical_slack_ms >  12.50
+|   |   |   |   |   |--- class: RMS
+|   |   |--- min_slack_ms >  23.50
+|   |   |   |--- min_critical_slack_ms <= 55.00
+|   |   |   |   |--- critical_misses_last_100ms <= 0.50
+|   |   |   |   |   |--- class: RMS
+|   |   |   |   |--- critical_misses_last_100ms >  0.50
+|   |   |   |   |   |--- class: EDF
+|   |   |   |--- min_critical_slack_ms >  55.00
+|   |   |   |   |--- task_count <= 9.00
+|   |   |   |   |   |--- class: EDF
+|   |   |   |   |--- task_count >  9.00
+|   |   |   |   |   |--- class: EDF

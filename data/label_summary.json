@@ -1,0 +1,108 @@
+{
+  "version": "v4-pilot",
+  "objective": [
+    "critical_misses",
+    "total_misses"
+  ],
+  "interval_ms": 100,
+  "lookahead_ms": 400,
+  "behavior_policies": [
+    "RMS",
+    "EDF",
+    "RMS+Boost",
+    "EDF+Boost"
+  ],
+  "task_sets": 480,
+  "suite_sha256": "52351243eb401a11de776b713da6e12509920619a7b356de93cff5d5e3ccb47a",
+  "test_evaluated": false,
+  "feature_columns": [
+    "nominal_utilization_pct",
+    "task_count",
+    "ready_queue_length",
+    "critical_ready_count",
+    "min_slack_ms",
+    "mean_slack_ms",
+    "min_critical_slack_ms",
+    "misses_last_100ms",
+    "critical_misses_last_100ms",
+    "completed_execution_range_pct",
+    "execution_history_task_count",
+    "current_mode",
+    "boost_window_remaining_ms",
+    "boost_window_phase_ms",
+    "critical_job_boost_budget_remaining_ms",
+    "wcet_exhausted_active_count"
+  ],
+  "statistics": {
+    "train": {
+      "rows": 34560,
+      "unique_best": {
+        "RMS": 51,
+        "EDF+Boost": 32,
+        "RMS+Boost": 72,
+        "EDF": 39
+      },
+      "optimal_sets": {
+        "RMS | EDF | RMS+Boost | EDF+Boost": 28940,
+        "EDF | EDF+Boost": 3414,
+        "EDF | RMS+Boost | EDF+Boost": 44,
+        "RMS | RMS+Boost": 1923,
+        "RMS": 51,
+        "EDF+Boost": 32,
+        "RMS | EDF | RMS+Boost": 18,
+        "RMS | RMS+Boost | EDF+Boost": 9,
+        "RMS+Boost": 72,
+        "RMS | EDF": 10,
+        "EDF": 39,
+        "RMS | EDF | EDF+Boost": 8
+      },
+      "recommendations": {
+        "RMS": 7792,
+        "EDF": 8124,
+        "RMS+Boost": 7815,
+        "EDF+Boost": 8117,
+        "UNRESOLVED": 2712
+      },
+      "discriminating_rows": 5620,
+      "all_four_tied": 28940,
+      "unresolved_ties": 2712
+    },
+    "validation": {
+      "rows": 17280,
+      "unique_best": {
+        "EDF": 88,
+        "RMS": 42,
+        "RMS+Boost": 50
+      },
+      "optimal_sets": {
+        "RMS | EDF | RMS+Boost | EDF+Boost": 14229,
+        "EDF | EDF+Boost": 2106,
+        "RMS | RMS+Boost": 713,
+        "EDF | RMS+Boost | EDF+Boost": 38,
+        "EDF": 88,
+        "RMS": 42,
+        "RMS | EDF": 12,
+        "RMS+Boost": 50,
+        "RMS | EDF | RMS+Boost": 2
+      },
+      "recommendations": {
+        "RMS": 3772,
+        "EDF": 4174,
+        "RMS+Boost": 3787,
+        "EDF+Boost": 4082,
+        "UNRESOLVED": 1465
+      },
+      "discriminating_rows": 3051,
+      "all_four_tied": 14229,
+      "unresolved_ties": 1465
+    }
+  },
+  "source_sha256": {
+    "state_engine.py": "cb515e1ced7315f4fd5671507a6402cd7207b530039061cfc230aeabaf256d27",
+    "simulator.py": "8026e4156ce952259e52247c09e1d18e948fd57c6af9af043fded49a774bb2f8",
+    "workloads.py": "ee88a1540dfa111cf8e82c477276d6f7d37a560cdab3e15d2c9c585f3acb5b7d",
+    "generate_labels.py": "efd4536e057f44dba40e139502bf1256f113ae69f729fc02ae9789f9c12f85ea"
+  },
+  "python": "3.12.14",
+  "interpretation": "Offline finite-lookahead targets, not globally optimal or deployable future knowledge"
+}

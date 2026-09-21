@@ -1,0 +1,76 @@
+{
+  "provenance": {
+    "status": "FINAL_FROZEN_TEST_EVALUATION",
+    "decision_interval_ms": 100,
+    "task_sets": 160,
+    "manifest_sha256": "921cb1551ce438e7b45caf92c988751b18380291cd19ed825967765c9c14e67f",
+    "suite_sha256": "52351243eb401a11de776b713da6e12509920619a7b356de93cff5d5e3ccb47a",
+    "family_model_sha256": "a7bae239338114cc323b767e7ec349bc6e951d346e9460be58c5e92b874da759",
+    "rms_boost_model_sha256": "97a8bcdef21bec5f835ac25b69518d51e866ae943580c2ebfa360a08682b5fc5",
+    "edf_boost_model_sha256": "d57323399ef7a20d5c4b113d5133ecca33fa0e787c9387a01a794d808f5ee21f",
+    "training_performed": false,
+    "hyperparameter_tuning_performed": false
+  },
+  "methods": {
+    "RMS": {
+      "critical_misses": 115,
+      "total_misses": 661,
+      "completed_jobs": 52087,
+      "dropped_jobs": 265,
+      "context_switches": 50277,
+      "preemptions": 12408,
+      "boost_activations": 0,
+      "boost_execution_ms": 0,
+      "busy_ms": 299325,
+      "mean_response_ms_completed_weighted": 11.631405149077505
+    },
+    "EDF": {
+      "critical_misses": 407,
+      "total_misses": 1162,
+      "completed_jobs": 51794,
+      "dropped_jobs": 543,
+      "context_switches": 48519,
+      "preemptions": 10763,
+      "boost_activations": 0,
+      "boost_execution_ms": 0,
+      "busy_ms": 299338,
+      "mean_response_ms_completed_weighted": 12.836641309804225
+    },
+    "RMS+Boost": {
+      "critical_misses": 111,
+      "total_misses": 657,
+      "completed_jobs": 52088,
+      "dropped_jobs": 264,
+      "context_switches": 50467,
+      "preemptions": 12598,
+      "boost_activations": 129,
+      "boost_execution_ms": 255,
+      "busy_ms": 299326,
+      "mean_response_ms_completed_weighted": 11.638707571801566
+    },
+    "EDF+Boost": {
+      "critical_misses": 321,
+      "total_misses": 1150,
+      "completed_jobs": 51797,
+      "dropped_jobs": 540,
+      "context_switches": 49231,
+      "preemptions": 11453,
+      "boost_activations": 493,
+      "boost_execution_ms": 959,
+      "busy_ms": 299343,
+      "mean_response_ms_completed_weighted": 12.8627526690735
+    },
+    "ADAPTIVE": {
+      "critical_misses": 134,
+      "total_misses": 582,
+      "completed_jobs": 52065,
+      "dropped_jobs": 281,
+      "context_switches": 49840,
+      "preemptions": 11950,
+      "boost_activations": 128,
+      "boost_execution_ms": 255,
+      "busy_ms": 299532,
+      "mean_response_ms_completed_weighted": 12.290060501296457
+    }
+  }
+}

@@ -1,0 +1,46 @@
+|--- misses_last_100ms <= 0.50
+|   |--- min_slack_ms <= -0.50
+|   |   |--- nominal_utilization_pct <= 110.04
+|   |   |   |--- class: BASE
+|   |   |--- nominal_utilization_pct >  110.04
+|   |   |   |--- class: BOOST
+|   |--- min_slack_ms >  -0.50
+|   |   |--- nominal_utilization_pct <= 102.50
+|   |   |   |--- nominal_utilization_pct <= 94.96
+|   |   |   |   |--- class: BASE
+|   |   |   |--- nominal_utilization_pct >  94.96
+|   |   |   |   |--- nominal_utilization_pct <= 95.04
+|   |   |   |   |   |--- class: BASE
+|   |   |   |   |--- nominal_utilization_pct >  95.04
+|   |   |   |   |   |--- class: BASE
+|   |   |--- nominal_utilization_pct >  102.50
+|   |   |   |--- completed_execution_range_pct <= 5.56
+|   |   |   |   |--- min_slack_ms <= 19.50
+|   |   |   |   |   |--- class: BOOST
+|   |   |   |   |--- min_slack_ms >  19.50
+|   |   |   |   |   |--- class: BASE
+|   |   |   |--- completed_execution_range_pct >  5.56
+|   |   |   |   |--- class: BASE
+|--- misses_last_100ms >  0.50
+|   |--- nominal_utilization_pct <= 102.42
+|   |   |--- completed_execution_range_pct <= 37.54
+|   |   |   |--- class: BASE
+|   |   |--- completed_execution_range_pct >  37.54
+|   |   |   |--- class: BASE
+|   |--- nominal_utilization_pct >  102.42
+|   |   |--- completed_execution_range_pct <= 5.56
+|   |   |   |--- mean_slack_ms <= 52.75
+|   |   |   |   |--- nominal_utilization_pct <= 110.62
+|   |   |   |   |   |--- class: BOOST
+|   |   |   |   |--- nominal_utilization_pct >  110.62
+|   |   |   |   |   |--- class: BOOST
+|   |   |   |--- mean_slack_ms >  52.75
+|   |   |   |   |--- min_slack_ms <= 39.00
+|   |   |   |   |   |--- class: BASE
+|   |   |   |   |--- min_slack_ms >  39.00
+|   |   |   |   |   |--- class: BOOST
+|   |   |--- completed_execution_range_pct >  5.56
+|   |   |   |--- min_slack_ms <= -6.50
+|   |   |   |   |--- class: BASE
+|   |   |   |--- min_slack_ms >  -6.50
+|   |   |   |   |--- class: BASE

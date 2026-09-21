@@ -1,0 +1,508 @@
+{
+  "version": "v5-pilot-family",
+  "target": "unique optimal scheduler family RMS vs EDF",
+  "target_rule": "include row iff all optimal_policies belong to one family",
+  "train_rows": 5531,
+  "validation_rows": 2999,
+  "train_task_sets": 71,
+  "validation_task_sets": 35,
+  "excluded_train_ambiguous_family_rows": 29029,
+  "excluded_validation_ambiguous_family_rows": 14281,
+  "class_distribution": {
+    "train": {
+      "EDF": 3485,
+      "RMS": 2046
+    },
+    "validation": {
+      "EDF": 2194,
+      "RMS": 805
+    }
+  },
+  "selection": "hyperparameters by grouped CV on train; variants reported on validation; no test use",
+  "current_family_baseline": {
+    "train": {
+      "accuracy": 0.487976857711083,
+      "balanced_accuracy": 0.4854137477893668,
+      "confusion_matrix_RMS_EDF": [
+        [
+          973,
+          1073
+        ],
+        [
+          1759,
+          1726
+        ]
+      ]
+    },
+    "validation": {
+      "accuracy": 0.48449483161053686,
+      "balanced_accuracy": 0.4809486063063012,
+      "confusion_matrix_RMS_EDF": [
+        [
+          381,
+          424
+        ],
+        [
+          1122,
+          1072
+        ]
+      ]
+    },
+    "validation_counterfactual": {
+      "critical_miss_regret": 1586,
+      "total_miss_regret": 3636,
+      "oracle_critical_misses": 1744,
+      "oracle_total_misses": 6095,
+      "chosen_critical_misses": 3330,
+      "chosen_total_misses": 9731,
+      "state_count": 2999,
+      "regret_distribution": {
+        "(1, 1)": 161,
+        "(0, 0)": 1453,
+        "(0, 2)": 190,
+        "(0, 3)": 70,
+        "(0, 1)": 330,
+        "(1, 0)": 94,
+        "(2, 1)": 63,
+        "(2, 0)": 37,
+        "(1, -1)": 48,
+        "(2, 2)": 116,
+        "(3, 1)": 2,
+        "(1, -2)": 16,
+        "(4, 1)": 10,
+        "(5, 2)": 10,
+        "(5, 1)": 10,
+        "(4, 0)": 8,
+        "(5, 0)": 16,
+        "(1, 2)": 31,
+        "(0, 4)": 104,
+        "(2, 3)": 8,
+        "(1, -4)": 10,
+        "(1, -6)": 15,
+        "(2, -4)": 13,
+        "(2, -5)": 8,
+        "(0, 7)": 10,
+        "(0, 5)": 34,
+        "(3, 4)": 2,
+        "(5, 9)": 2,
+        "(5, 8)": 8,
+        "(5, 7)": 8,
+        "(6, 9)": 8,
+        "(5, 10)": 6,
+        "(4, 6)": 6,
+        "(7, 8)": 3,
+        "(6, 8)": 3,
+        "(1, -3)": 4,
+        "(2, -3)": 2,
+        "(3, 8)": 2,
+        "(5, 19)": 2,
+        "(6, 25)": 2,
+        "(4, 26)": 8,
+        "(1, 24)": 8,
+        "(3, 27)": 8,
+        "(3, 29)": 4,
+        "(4, 28)": 8,
+        "(5, 26)": 6,
+        "(3, 28)": 4,
+        "(0, 6)": 4,
+        "(1, 3)": 10,
+        "(2, 4)": 2,
+        "(2, 5)": 2,
+        "(1, 4)": 4,
+        "(3, 3)": 6
+      },
+      "note": "Chosen family is scored using its better base/boost branch; this does not yet define a deployable boost selector."
+    }
+  },
+  "models": {
+    "without_current_mode": {
+      "features": [
+        "nominal_utilization_pct",
+        "task_count",
+        "ready_queue_length",
+        "critical_ready_count",
+        "min_slack_ms",
+        "mean_slack_ms",
+        "min_critical_slack_ms",
+        "misses_last_100ms",
+        "critical_misses_last_100ms",
+        "completed_execution_range_pct",
+        "execution_history_task_count",
+        "boost_window_remaining_ms",
+        "boost_window_phase_ms",
+        "critical_job_boost_budget_remaining_ms",
+        "wcet_exhausted_active_count"
+      ],
+      "selected_params": {
+        "class_weight": null,
+        "max_depth": 5,
+        "min_samples_leaf": 10
+      },
+      "group_cv_balanced_accuracy_mean": 0.8299840289640471,
+      "group_cv_fold_scores": [
+        0.8801470588235294,
+        0.8504074889867841,
+        0.8677445809708298,
+        0.7753443215172726,
+        0.7762766945218198
+      ],
+      "depth": 5,
+      "leaves": 27,
+      "train": {
+        "accuracy": 0.9135780148255288,
+        "balanced_accuracy": 0.9009463824153507,
+        "confusion_matrix_RMS_EDF": [
+          [
+            1744,
+            302
+          ],
+          [
+            176,
+            3309
+          ]
+        ]
+      },
+      "validation": {
+        "accuracy": 0.7582527509169723,
+        "balanced_accuracy": 0.6904635454118233,
+        "confusion_matrix_RMS_EDF": [
+          [
+            438,
+            367
+          ],
+          [
+            358,
+            1836
+          ]
+        ]
+      },
+      "validation_counterfactual": {
+        "critical_miss_regret": 1212,
+        "total_miss_regret": 203,
+        "oracle_critical_misses": 1744,
+        "oracle_total_misses": 6095,
+        "chosen_critical_misses": 2956,
+        "chosen_total_misses": 6298,
+        "state_count": 2999,
+        "regret_distribution": {
+          "(0, 0)": 2274,
+          "(0, 1)": 56,
+          "(1, 0)": 103,
+          "(2, 1)": 103,
+          "(2, 2)": 51,
+          "(2, 0)": 15,
+          "(0, 2)": 56,
+          "(1, 1)": 49,
+          "(3, 1)": 4,
+          "(1, -1)": 50,
+          "(1, -2)": 9,
+          "(2, -1)": 3,
+          "(4, 1)": 20,
+          "(5, 2)": 20,
+          "(5, 1)": 20,
+          "(4, 0)": 16,
+          "(5, 0)": 28,
+          "(5, -1)": 4,
+          "(0, 3)": 18,
+          "(0, 4)": 2,
+          "(2, 3)": 12,
+          "(3, 4)": 2,
+          "(1, -6)": 33,
+          "(2, -4)": 5,
+          "(2, -5)": 8,
+          "(1, -4)": 16,
+          "(1, -8)": 8,
+          "(3, 2)": 2,
+          "(1, 2)": 8,
+          "(2, -3)": 2,
+          "(5, 19)": 2
+        },
+        "note": "Chosen family is scored using its better base/boost branch; this does not yet define a deployable boost selector."
+      },
+      "feature_importance": {
+        "nominal_utilization_pct": 0.4344017486203292,
+        "misses_last_100ms": 0.21931677360019505,
+        "min_slack_ms": 0.10486194674210222,
+        "completed_execution_range_pct": 0.09603264995253187,
+        "mean_slack_ms": 0.08044623216561604,
+        "critical_misses_last_100ms": 0.02871297927515772,
+        "min_critical_slack_ms": 0.02411869577451382,
+        "task_count": 0.007744547790564685,
+        "execution_history_task_count": 0.003274890565816333,
+        "ready_queue_length": 0.0010895355131731136,
+        "critical_ready_count": 0.0,
+        "boost_window_remaining_ms": 0.0,
+        "boost_window_phase_ms": 0.0,
+        "critical_job_boost_budget_remaining_ms": 0.0,
+        "wcet_exhausted_active_count": 0.0
+      }
+    },
+    "with_current_mode": {
+      "features": [
+        "nominal_utilization_pct",
+        "task_count",
+        "ready_queue_length",
+        "critical_ready_count",
+        "min_slack_ms",
+        "mean_slack_ms",
+        "min_critical_slack_ms",
+        "misses_last_100ms",
+        "critical_misses_last_100ms",
+        "completed_execution_range_pct",
+        "execution_history_task_count",
+        "current_mode",
+        "boost_window_remaining_ms",
+        "boost_window_phase_ms",
+        "critical_job_boost_budget_remaining_ms",
+        "wcet_exhausted_active_count"
+      ],
+      "selected_params": {
+        "class_weight": null,
+        "max_depth": 5,
+        "min_samples_leaf": 10
+      },
+      "group_cv_balanced_accuracy_mean": 0.8276345429141205,
+      "group_cv_fold_scores": [
+        0.8801470588235294,
+        0.8386600587371512,
+        0.8677445809708298,
+        0.7753443215172726,
+        0.7762766945218198
+      ],
+      "depth": 5,
+      "leaves": 27,
+      "train": {
+        "accuracy": 0.9135780148255288,
+        "balanced_accuracy": 0.9009463824153507,
+        "confusion_matrix_RMS_EDF": [
+          [
+            1744,
+            302
+          ],
+          [
+            176,
+            3309
+          ]
+        ]
+      },
+      "validation": {
+        "accuracy": 0.7582527509169723,
+        "balanced_accuracy": 0.6904635454118233,
+        "confusion_matrix_RMS_EDF": [
+          [
+            438,
+            367
+          ],
+          [
+            358,
+            1836
+          ]
+        ]
+      },
+      "validation_counterfactual": {
+        "critical_miss_regret": 1212,
+        "total_miss_regret": 203,
+        "oracle_critical_misses": 1744,
+        "oracle_total_misses": 6095,
+        "chosen_critical_misses": 2956,
+        "chosen_total_misses": 6298,
+        "state_count": 2999,
+        "regret_distribution": {
+          "(0, 0)": 2274,
+          "(0, 1)": 56,
+          "(1, 0)": 103,
+          "(2, 1)": 103,
+          "(2, 2)": 51,
+          "(2, 0)": 15,
+          "(0, 2)": 56,
+          "(1, 1)": 49,
+          "(3, 1)": 4,
+          "(1, -1)": 50,
+          "(1, -2)": 9,
+          "(2, -1)": 3,
+          "(4, 1)": 20,
+          "(5, 2)": 20,
+          "(5, 1)": 20,
+          "(4, 0)": 16,
+          "(5, 0)": 28,
+          "(5, -1)": 4,
+          "(0, 3)": 18,
+          "(0, 4)": 2,
+          "(2, 3)": 12,
+          "(3, 4)": 2,
+          "(1, -6)": 33,
+          "(2, -4)": 5,
+          "(2, -5)": 8,
+          "(1, -4)": 16,
+          "(1, -8)": 8,
+          "(3, 2)": 2,
+          "(1, 2)": 8,
+          "(2, -3)": 2,
+          "(5, 19)": 2
+        },
+        "note": "Chosen family is scored using its better base/boost branch; this does not yet define a deployable boost selector."
+      },
+      "feature_importance": {
+        "nominal_utilization_pct": 0.43440174862032915,
+        "misses_last_100ms": 0.21931677360019503,
+        "min_slack_ms": 0.10486194674210221,
+        "completed_execution_range_pct": 0.09603264995253186,
+        "mean_slack_ms": 0.08044623216561604,
+        "critical_misses_last_100ms": 0.028712979275157716,
+        "min_critical_slack_ms": 0.024118695774513817,
+        "task_count": 0.007744547790564684,
+        "execution_history_task_count": 0.0032748905658163325,
+        "ready_queue_length": 0.0010895355131731136,
+        "critical_ready_count": 0.0,
+        "current_mode": 0.0,
+        "boost_window_remaining_ms": 0.0,
+        "boost_window_phase_ms": 0.0,
+        "critical_job_boost_budget_remaining_ms": 0.0,
+        "wcet_exhausted_active_count": 0.0
+      }
+    },
+    "cost_sensitive_without_current_mode": {
+      "features": [
+        "nominal_utilization_pct",
+        "task_count",
+        "ready_queue_length",
+        "critical_ready_count",
+        "min_slack_ms",
+        "mean_slack_ms",
+        "min_critical_slack_ms",
+        "misses_last_100ms",
+        "critical_misses_last_100ms",
+        "completed_execution_range_pct",
+        "execution_history_task_count",
+        "boost_window_remaining_ms",
+        "boost_window_phase_ms",
+        "critical_job_boost_budget_remaining_ms",
+        "wcet_exhausted_active_count"
+      ],
+      "selected_params": {
+        "max_depth": 5,
+        "min_samples_leaf": 20
+      },
+      "selection_objective": "lexicographic mean critical regret then total regret in grouped CV",
+      "critical_weight_multiplier": 41,
+      "group_cv_critical_regret_per_state": 0.3216562494705778,
+      "group_cv_total_regret_per_state": 0.8968296196201699,
+      "group_cv_fold_scores": [
+        {
+          "critical_regret_per_state": 0.16363636363636364,
+          "total_regret_per_state": 0.2309090909090909
+        },
+        {
+          "critical_regret_per_state": 0.34782608695652173,
+          "total_regret_per_state": 0.4708603145235893
+        },
+        {
+          "critical_regret_per_state": 0.6097122302158273,
+          "total_regret_per_state": 1.9883093525179856
+        },
+        {
+          "critical_regret_per_state": 0.24545454545454545,
+          "total_regret_per_state": 0.9381818181818182
+        },
+        {
+          "critical_regret_per_state": 0.24165202108963094,
+          "total_regret_per_state": 0.8558875219683656
+        }
+      ],
+      "depth": 5,
+      "leaves": 30,
+      "train": {
+        "accuracy": 0.8595190743084433,
+        "balanced_accuracy": 0.8814587304058309,
+        "confusion_matrix_RMS_EDF": [
+          [
+            1976,
+            70
+          ],
+          [
+            707,
+            2778
+          ]
+        ]
+      },
+      "validation": {
+        "accuracy": 0.6672224074691564,
+        "balanced_accuracy": 0.6636385512153417,
+        "confusion_matrix_RMS_EDF": [
+          [
+            528,
+            277
+          ],
+          [
+            721,
+            1473
+          ]
+        ]
+      },
+      "validation_counterfactual": {
+        "critical_miss_regret": 1365,
+        "total_miss_regret": 553,
+        "oracle_critical_misses": 1744,
+        "oracle_total_misses": 6095,
+        "chosen_critical_misses": 3109,
+        "chosen_total_misses": 6648,
+        "state_count": 2999,
+        "regret_distribution": {
+          "(1, 1)": 90,
+          "(0, 0)": 2001,
+          "(1, 0)": 126,
+          "(2, 1)": 141,
+          "(2, 2)": 30,
+          "(2, 0)": 13,
+          "(0, 2)": 55,
+          "(0, 1)": 174,
+          "(3, 1)": 4,
+          "(1, -1)": 40,
+          "(1, -2)": 15,
+          "(2, -1)": 3,
+          "(4, 1)": 20,
+          "(5, 2)": 20,
+          "(5, 1)": 20,
+          "(4, 0)": 16,
+          "(5, 0)": 28,
+          "(5, -1)": 4,
+          "(1, 2)": 20,
+          "(0, 4)": 50,
+          "(2, 3)": 2,
+          "(1, -4)": 20,
+          "(1, -6)": 33,
+          "(2, -4)": 13,
+          "(2, -5)": 8,
+          "(1, -8)": 8,
+          "(1, 3)": 1,
+          "(3, 2)": 4,
+          "(3, 5)": 8,
+          "(4, 8)": 8,
+          "(0, 3)": 14,
+          "(1, -3)": 4,
+          "(2, -3)": 2,
+          "(0, 5)": 4
+        },
+        "note": "Chosen family is scored using its better base/boost branch; this does not yet define a deployable boost selector."
+      },
+      "feature_importance": {
+        "nominal_utilization_pct": 0.5664814133162313,
+        "mean_slack_ms": 0.2766973977873145,
+        "completed_execution_range_pct": 0.05392685930773092,
+        "min_slack_ms": 0.043393445660392556,
+        "task_count": 0.023908677579958463,
+        "ready_queue_length": 0.015710802381558035,
+        "misses_last_100ms": 0.007348075526796441,
+        "execution_history_task_count": 0.006664846444801314,
+        "critical_ready_count": 0.005650980073927963,
+        "min_critical_slack_ms": 0.00021750192128849435,
+        "critical_misses_last_100ms": 0.0,
+        "boost_window_remaining_ms": 0.0,
+        "boost_window_phase_ms": 0.0,
+        "critical_job_boost_budget_remaining_ms": 0.0,
+        "wcet_exhausted_active_count": 0.0
+      }
+    }
+  },
+  "test_evaluated": false
+}
